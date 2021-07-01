@@ -3,7 +3,6 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import * as fsp from "fs/promises";
 import xlsx from "xlsx";
 import v from "voca";
-import { GL3DataObject, Gl3Sheet } from "src/@types/GL3DataObject";
 import {
     getGroupedFields,
     makeCompareData,
@@ -32,7 +31,10 @@ export default async (
 
     const renamedFields = Object.fromEntries([]);
 
-    const ignoredField = [];
+    const ignoredField = [
+        "Electronique +Système",
+        "Physique 2 ( Magnétisme + Thermo )",
+    ];
 
     const fieldOrder = [];
 
@@ -43,7 +45,9 @@ export default async (
         (e) => `${e.Nom}  ${e.Prenom}`,
         (e) => v.kebabCase(`${e.Nom}  ${e.Prenom}`),
     ).sort((a, b) => a.fullName.localeCompare(b.fullName));
-    const groupedFields = getGroupedFields(data[0], ignoredField, fieldOrder);
+    const groupedFields = getGroupedFields(data[0], ignoredField, fieldOrder)
+        .flatMap((e) => e)
+        .map((e) => [e]);
 
     const mpiOutput: MPIDataObject = {
         name: "MPI",
