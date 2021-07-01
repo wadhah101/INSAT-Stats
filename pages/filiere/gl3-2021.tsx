@@ -8,6 +8,7 @@ import CompareChart from "@components/charts/CompareChart/controller";
 import Contact from "@components/contact";
 import IndivChart from "@components/charts/IndivChart/controller";
 import { GL3CompareObject, GL3DataObject } from "src/@types/GL3DataObject";
+import RankingChart from "@components/charts/RankingChart";
 
 interface IGL3Props {
     compareData: GL3CompareObject[];
@@ -54,6 +55,13 @@ const GL3Page2021: NextPage<IGL3Props> = ({
                         <CompareChart
                             renamedFields={renamedFields}
                             groupedFields={groupedFields}
+                            data={compareData}
+                        />
+                    )}
+
+                    {selectedTab === 2 && (
+                        <RankingChart
+                            compAttribute="MOY_ANN"
                             data={compareData}
                         />
                     )}

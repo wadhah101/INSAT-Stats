@@ -8,6 +8,7 @@ import CompareChart from "@components/charts/CompareChart/controller";
 import Contact from "@components/contact";
 import IndivChart from "@components/charts/IndivChart/controller";
 import { MPICompareObject, MPIDataObject } from "src/@types/MPIDataObject";
+import RankingChart from "@components/charts/RankingChart";
 
 interface IMPIProps {
     compareData: MPICompareObject[];
@@ -54,6 +55,12 @@ const GL3Page2021: NextPage<IMPIProps> = ({
                         <CompareChart
                             renamedFields={renamedFields}
                             groupedFields={groupedFields}
+                            data={compareData}
+                        />
+                    )}
+                    {selectedTab === 2 && (
+                        <RankingChart
+                            compAttribute="M.G(avant contrôle)"
                             data={compareData}
                         />
                     )}
