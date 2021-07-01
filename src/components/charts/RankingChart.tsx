@@ -2,7 +2,7 @@ import React from "react";
 import { Bar } from "react-chartjs-2";
 import { GenericCompareObject } from "src/@types/GenericDataObject";
 
-const makeData = <T extends any>(
+const makeData = <T extends unknown>(
     input: GenericCompareObject<T>[],
     compAttribute: string,
 ) => {
