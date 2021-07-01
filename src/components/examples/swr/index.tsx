@@ -11,7 +11,7 @@ import useSWR, { mutate } from "swr";
 const API_URL =
     "https://official-joke-api.appspot.com/jokes/programming/random";
 
-export const SWRExample = () => {
+export const SWRExample = (): JSX.Element => {
     const { data } = useSWR(API_URL);
 
     const refetch = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 
-export const EnvExample = () => {
+export const EnvExample = (): JSX.Element => {
     return (
         <div>
             <div>NEXT_PUBLIC_ENV_VARIABLE</div>

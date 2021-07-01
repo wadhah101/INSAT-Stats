@@ -8,7 +8,7 @@ import { usePrevious, useWindowSize } from "react-use";
  * please visit https://github.com/streamich/react-use
  */
 
-export const ReactUseExample = () => {
+export const ReactUseExample = (): JSX.Element => {
     const [count, setCount] = React.useState(0);
     const prevCount = usePrevious(count);
     const { width, height } = useWindowSize();

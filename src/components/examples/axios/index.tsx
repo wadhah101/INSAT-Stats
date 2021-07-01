@@ -16,7 +16,7 @@ const jokesApi = axios.create({
     baseURL: BASE_API_URL,
 });
 
-export const AxiosExample = () => {
+export const AxiosExample = (): JSX.Element => {
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [data, setData] = useState([]);

@@ -1,6 +1,5 @@
 import * as R from "ramda";
 import { GenericCompareObject } from "src/@types/GenericDataObject";
-import v from "voca";
 
 export const getRenamedField = (
     e: string,
