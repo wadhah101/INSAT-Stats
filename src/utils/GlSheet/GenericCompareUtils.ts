@@ -36,14 +36,18 @@ export const makeCompareData = <T extends Record<string, string | number>>(
     inp: T[],
     ignoredField: string[],
     fieldOrder: string[],
+    fullNameFactory: (e: T) => string,
+    slugFactory: (e: T) => string,
 ): GenericCompareObject<T>[] => {
     const a = inp[0];
     const sortedFields = getSortedFields(a, ignoredField, fieldOrder);
     return inp.map((x) => ({
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         data: Object.fromEntries(sortedFields.map((e) => [e, x[e]])) as any,
-        fullName: `${x.NOM} ${x.PRENOM}`,
-        slug: v.kebabCase(`${x.NOM} ${x.PRENOM}`),
+        fullName: fullNameFactory(x),
+        slug: slugFactory(x),
+        // fullName: `${x.NOM} ${x.PRENOM}`,
+        // slug: v.kebabCase(`${x.NOM} ${x.PRENOM}`),
     }));
 };
 

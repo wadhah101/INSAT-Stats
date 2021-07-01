@@ -14,6 +14,10 @@ const Home: NextPage = () => {
             <Link passHref href="/filiere/gl3-2021">
                 <a> GL3-2021 </a>
             </Link>
+
+            <Link passHref href="/filiere/mpi-2021">
+                <a> MPI-2021 </a>
+            </Link>
         </Container>
     );
 };

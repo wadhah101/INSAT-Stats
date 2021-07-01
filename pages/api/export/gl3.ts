@@ -62,9 +62,13 @@ export default async (
     const fieldOrder = ["RANG", "MOY_ANN"];
 
     // making comparison data
-    const compareData = makeCompareData(data, ignoredField, fieldOrder).sort(
-        (a, b) => a.fullName.localeCompare(b.fullName),
-    );
+    const compareData = makeCompareData(
+        data,
+        ignoredField,
+        fieldOrder,
+        (e) => `${e.NOM}  ${e.PRENOM}`,
+        (e) => v.kebabCase(`${e.NOM}  ${e.PRENOM}`),
+    ).sort((a, b) => a.fullName.localeCompare(b.fullName));
     const groupedFields = getGroupedFields(data[0], ignoredField, fieldOrder);
 
     const glOutput: GL3DataObject = {
