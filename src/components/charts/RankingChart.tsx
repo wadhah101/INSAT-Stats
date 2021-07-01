@@ -1,9 +1,9 @@
 import React from "react";
 import { Bar } from "react-chartjs-2";
-import { GlSheet } from "src/@types/GlSheet";
+import { Gl3Sheet } from "src/@types/GL3DataObject";
 import v from "voca";
 
-const makeData = (input: GlSheet[]) => ({
+const makeData = (input: Gl3Sheet[]) => ({
     labels: input.map(
         (e, index) =>
             `${v.titleCase(e.PRENOM)} ${v.titleCase(e.NOM)} #${index + 1}`,
@@ -47,7 +47,7 @@ const options = {
     },
 };
 interface IMoyChart {
-    input: GlSheet[];
+    input: Gl3Sheet[];
 }
 
 const RankingChart: React.FC<IMoyChart> = ({ input }) => (
