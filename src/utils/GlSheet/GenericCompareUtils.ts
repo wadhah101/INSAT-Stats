@@ -26,8 +26,9 @@ export const getGroupedFields = <T extends Record<string, string | number>>(
     e: T,
     ignoredField: string[],
     fieldOrder: string[],
+    equalityFunction: (x: string, y: string) => boolean,
 ): string[][] =>
-    R.groupWith<string>((x, y) => x.slice(-3) === y.slice(-3))(
+    R.groupWith<string>(equalityFunction)(
         getSortedFields(e, ignoredField, fieldOrder),
     );
 
@@ -45,8 +46,6 @@ export const makeCompareData = <T extends Record<string, string | number>>(
         data: Object.fromEntries(sortedFields.map((e) => [e, x[e]])) as any,
         fullName: fullNameFactory(x),
         slug: slugFactory(x),
-        // fullName: `${x.NOM} ${x.PRENOM}`,
-        // slug: v.kebabCase(`${x.NOM} ${x.PRENOM}`),
     }));
 };
 

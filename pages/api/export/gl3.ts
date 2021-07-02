@@ -69,7 +69,12 @@ export default async (
         (e) => `${e.NOM}  ${e.PRENOM}`,
         (e) => v.kebabCase(`${e.NOM}  ${e.PRENOM}`),
     ).sort((a, b) => a.fullName.localeCompare(b.fullName));
-    const groupedFields = getGroupedFields(data[0], ignoredField, fieldOrder);
+    const groupedFields = getGroupedFields(
+        data[0],
+        ignoredField,
+        fieldOrder,
+        (x, y) => x.slice(-3) === y.slice(-3),
+    );
 
     const glOutput: GL3DataObject = {
         name: "GL3",

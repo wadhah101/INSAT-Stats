@@ -45,9 +45,9 @@ const StatelessCompareChart = <T extends unknown>({
                     <h2 className="text-xl font-medium text-black md:text-2xl text-opacity-60">
                         {v.titleCase(
                             getRenamedField(
-                                groupedNote.length > 1
-                                    ? groupedNote[0].slice(-3)
-                                    : groupedNote[0],
+                                groupedNote[0].slice(
+                                    groupedNote.length > 1 ? -3 : 0,
+                                ),
                                 renamedFields,
                             ),
                         )}

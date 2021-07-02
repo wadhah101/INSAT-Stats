@@ -14,7 +14,6 @@ interface IMPIProps {
     compareData: MPICompareObject[];
     groupedFields: string[][];
     renamedFields: Record<string, string>;
-    data: [];
 }
 
 // COOOODE NOW REFACTOR LATER
@@ -83,7 +82,6 @@ export const getStaticProps: GetStaticProps<IMPIProps> = async () => {
             renamedFields,
             compareData,
             groupedFields,
-            data: null,
         },
     };
 };

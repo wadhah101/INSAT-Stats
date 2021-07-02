@@ -45,9 +45,12 @@ export default async (
         (e) => `${e.Nom}  ${e.Prenom}`,
         (e) => v.kebabCase(`${e.Nom}  ${e.Prenom}`),
     ).sort((a, b) => a.fullName.localeCompare(b.fullName));
-    const groupedFields = getGroupedFields(data[0], ignoredField, fieldOrder)
-        .flatMap((e) => e)
-        .map((e) => [e]);
+    const groupedFields = getGroupedFields(
+        data[0],
+        ignoredField,
+        fieldOrder,
+        () => false,
+    );
 
     const mpiOutput: MPIDataObject = {
         name: "MPI",
