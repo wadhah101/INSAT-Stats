@@ -5,6 +5,7 @@ import "@styles/global.scss";
 import { Provider } from "react-redux";
 import store from "@redux/store";
 import Head from "next/head";
+import { Header } from "@components/header";
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     return (
@@ -26,6 +27,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
                 />
             </Head>
 
+            <Header />
             <Component {...pageProps} />
         </Provider>
     );

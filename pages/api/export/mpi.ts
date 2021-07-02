@@ -6,7 +6,7 @@ import v from "voca";
 import {
     getGroupedFields,
     makeCompareData,
-} from "src/utils/GlSheet/GenericCompareUtils";
+} from "src/utils/GenericCompareUtils";
 import { MPIDataObject, MPISheet } from "src/@types/MPIDataObject";
 
 const canRun = env.NODE_ENV === "development";

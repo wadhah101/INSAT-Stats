@@ -8,12 +8,14 @@ interface ICompareChartProps<T> {
     data: GenericCompareObject<T>[];
     groupedFields: string[][];
     renamedFields: Record<string, string>;
+    fieldMapper: (e: string, index: number, arr: string[]) => string;
 }
 
 const CompareChart = <T extends unknown>({
     data,
     renamedFields,
     groupedFields,
+    fieldMapper,
 }: React.PropsWithChildren<ICompareChartProps<T>>): JSX.Element => {
     const [indexA, setIndexA] = React.useState(
         Math.floor(Math.random() * data.length),
@@ -71,6 +73,7 @@ const CompareChart = <T extends unknown>({
                 </div>
             </div>
             <StatelessCompareChart
+                fieldMapper={fieldMapper}
                 renamedFields={renamedFields}
                 groupedFields={groupedFields}
                 data={[data[indexA], data[indexB]]}

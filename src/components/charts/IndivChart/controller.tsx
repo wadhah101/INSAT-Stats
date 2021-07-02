@@ -7,11 +7,13 @@ import StatelessCompareChart from "../CompareChart/stateless";
 interface ICompareChartProps<T> {
     data: GenericCompareObject<T>[];
     renamedFields: Record<string, string>;
+    fieldMapper: (e: string, index: number, arr: string[]) => string;
     groupedFields: string[][];
 }
 
 const IndivChart = <T extends unknown>({
     data,
+    fieldMapper,
     renamedFields,
     groupedFields,
 }: ICompareChartProps<T>): JSX.Element => {
@@ -46,6 +48,7 @@ const IndivChart = <T extends unknown>({
             <StatelessCompareChart
                 renamedFields={renamedFields}
                 groupedFields={groupedFields}
+                fieldMapper={fieldMapper}
                 data={[data[indexA]]}
             />
         </div>

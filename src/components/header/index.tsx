@@ -1,11 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 
-import { Logo } from "@components";
+import Contact from "@components/contact";
+import Tabs from "@components/tabs/stateless";
+import { useRouter } from "next/dist/client/router";
+
+const tabs = ["Individual", "Compare", "Ranking"];
+
+const tabMapper = {
+    Individual: "indiv",
+    Compare: "compare",
+    Ranking: "ranking",
+};
+
+const selectedFielere = "gl3-2021";
 
 export const Header: React.FC = () => {
+    const [selectedTab, setSelectedTab] = useState(0);
+    const router = useRouter();
+
+    const onSelect = (e: number): void => {
+        setSelectedTab(e);
+        const splitttedPathname = router.pathname.split("/");
+        // this check is stupid
+        if (splitttedPathname.length >= 3) {
+            console.log(selectedTab);
+
+            const base = splitttedPathname.slice(0, 3);
+            const newUrl = [...base, tabMapper[tabs[e]]];
+            console.log(newUrl);
+            router.push(newUrl.join("/"));
+        }
+    };
+
     return (
-        <div className="text-center bg-gray-800">
-            <Logo />
-        </div>
+        <header className="my-1">
+            <Contact />
+            <Tabs onSelect={onSelect} current={selectedTab} data={tabs} />
+        </header>
     );
 };

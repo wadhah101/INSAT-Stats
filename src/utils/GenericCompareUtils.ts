@@ -53,11 +53,10 @@ export const makeCompareData = <T extends Record<string, string | number>>(
 export const makeChartData = <T>(
     input: GenericCompareObject<T>[],
     fields: string[],
+    fieldMapper: (e: string, ind: number, arr: string[]) => string,
 ) => {
     return {
-        labels: fields.map((e, _, arr) =>
-            arr.length > 1 ? e.slice(0, -3) : e,
-        ),
+        labels: fields.map(fieldMapper),
         datasets: input.map((person, index) => ({
             label: person.fullName,
             data: fields.map((field) => person.data[field]),

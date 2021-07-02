@@ -7,7 +7,7 @@ import { GL3DataObject, Gl3Sheet } from "src/@types/GL3DataObject";
 import {
     getGroupedFields,
     makeCompareData,
-} from "src/utils/GlSheet/GenericCompareUtils";
+} from "src/utils/GenericCompareUtils";
 
 const canRun = env.NODE_ENV === "development";
 
