@@ -2,10 +2,10 @@ import * as React from "react";
 import StatelessCompareChart from "./stateless";
 import Select from "@material-ui/core/Select";
 import MenuItem from "@material-ui/core/MenuItem";
-import { GenericCompareObject } from "src/@types/GenericDataObject";
+import { GenericStudentResult } from "src/@types/GenericDataObject";
 
 interface ICompareChartProps<T> {
-    data: GenericCompareObject<T>[];
+    data: GenericStudentResult<T>[];
     groupedFields: string[][];
     renamedFields: Record<string, string>;
     fieldMapper: (e: string, index: number, arr: string[]) => string;

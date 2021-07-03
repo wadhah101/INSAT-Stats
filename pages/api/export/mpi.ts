@@ -3,10 +3,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import * as fsp from "fs/promises";
 import xlsx from "xlsx";
 import v from "voca";
-import {
-    getGroupedFields,
-    makeCompareData,
-} from "src/utils/GenericCompareUtils";
+import { getGroupedFields, makeCompareData } from "src/utils/chartData.utils";
 import { MPISheet } from "src/@types/MPIDataObject";
 
 const canRun = env.NODE_ENV === "development";

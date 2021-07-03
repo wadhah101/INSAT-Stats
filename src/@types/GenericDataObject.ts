@@ -7,14 +7,13 @@ interface Meh {
     [K: string]: Record<string, number> | string;
 }
 
-export interface GenericCompareObject<T extends Meh | any> {
+export interface GenericStudentResult<T extends Meh | any> {
     data: Partial<T>;
     fullName: string;
     slug: string;
 }
 
-export interface GenericDataObject<T extends Meh | any> {
-    name: string;
-    year: string;
-    compareData: GenericCompareObject<T>[];
+export interface GenericFiliereResult<T extends Meh | any> {
+    filiere: Filiere;
+    studentsResults: GenericStudentResult<T>[];
 }

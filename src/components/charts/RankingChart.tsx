@@ -1,9 +1,9 @@
 import React from "react";
 import { Bar } from "react-chartjs-2";
-import { GenericCompareObject } from "src/@types/GenericDataObject";
+import { GenericStudentResult } from "src/@types/GenericDataObject";
 
 const makeData = <T extends unknown>(
-    input: GenericCompareObject<T>[],
+    input: GenericStudentResult<T>[],
     compAttribute: string,
 ) => {
     const sorted = [...input].sort(
@@ -53,7 +53,7 @@ const options = {
     },
 };
 interface IMoyChart<T> {
-    data: GenericCompareObject<T>[];
+    data: GenericStudentResult<T>[];
     compAttribute: string;
 }
 

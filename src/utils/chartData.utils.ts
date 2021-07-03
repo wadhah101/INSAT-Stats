@@ -1,5 +1,5 @@
 import * as R from "ramda";
-import { GenericCompareObject } from "src/@types/GenericDataObject";
+import { GenericStudentResult } from "src/@types/GenericDataObject";
 
 export const getRenamedField = (
     e: string,
@@ -38,7 +38,7 @@ export const makeCompareData = <T extends Record<string, string | number>>(
     fieldOrder: string[],
     fullNameFactory: (e: T) => string,
     slugFactory: (e: T) => string,
-): GenericCompareObject<T>[] => {
+): GenericStudentResult<T>[] => {
     const a = inp[0];
     const sortedFields = getSortedFields(a, ignoredField, fieldOrder);
     return inp.map((x) => ({
@@ -51,7 +51,7 @@ export const makeCompareData = <T extends Record<string, string | number>>(
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const makeChartData = <T>(
-    input: GenericCompareObject<T>[],
+    input: GenericStudentResult<T>[],
     fields: string[],
     fieldMapper: (e: string, ind: number, arr: string[]) => string,
 ) => {

@@ -1,5 +1,3 @@
-import { GenericCompareObject, GenericDataObject } from "./GenericDataObject";
-
 export interface MPISheet {
     Nom: string;
     Prenom: string;

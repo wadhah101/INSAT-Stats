@@ -1,5 +1,6 @@
 import { GetStaticProps, NextPage } from "next";
 import * as fsp from "fs/promises";
+import { getStaticPathsFiliere } from "src/utils/filiere.utils";
 
 // COOOODE NOW REFACTOR LATER
 // TODO FIX THIS BAD CODE PROTOTYPE
@@ -34,17 +35,6 @@ export const getStaticProps: GetStaticProps = async () => {
     };
 };
 
-export async function getStaticPaths() {
-    return {
-        paths: [
-            { params: { filiere: "1" } }, // See the "paths" section below
-            { params: { filiere: "2" } }, // See the "paths" section below
-            { params: { filiere: "3" } }, // See the "paths" section below
-            { params: { filiere: "4" } }, // See the "paths" section below
-            { params: { filiere: "5" } }, // See the "paths" section below
-        ],
-        fallback: false,
-    };
-}
+export const getStaticPaths = getStaticPathsFiliere;
 
 export default GL3Page2021;

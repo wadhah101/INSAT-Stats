@@ -1,5 +1,3 @@
-import { GenericCompareObject, GenericDataObject } from "./GenericDataObject";
-
 export interface Gl3Sheet {
     NUM_INS: string;
     IDENTIF: string;

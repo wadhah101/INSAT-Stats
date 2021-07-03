@@ -4,10 +4,7 @@ import * as fsp from "fs/promises";
 import xlsx from "xlsx";
 import v from "voca";
 import { Gl3Sheet } from "src/@types/GL3DataObject";
-import {
-    getGroupedFields,
-    makeCompareData,
-} from "src/utils/GenericCompareUtils";
+import { getGroupedFields, makeCompareData } from "src/utils/chartData.utils";
 
 const canRun = env.NODE_ENV === "development";
 
@@ -78,11 +75,7 @@ export default async (
 
     const glOutput = {
         name: "GL3",
-        fieldOrder,
-        ignoredField,
-        renamedFields,
         year: "2021",
-        groupedFields,
         compareData,
     };
 

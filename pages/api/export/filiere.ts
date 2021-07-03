@@ -12,8 +12,8 @@ export default async (
     if (!canRun) res.status(400).json({ name: "server error" });
 
     const current: Filiere[] = [
-        { name: "GL3", year: 2021 },
-        { name: "MPI", year: 2021 },
+        { name: "gl3", year: 2021 },
+        { name: "mpi", year: 2021 },
     ];
     await fsp.writeFile(
         "data/json/filiere.json",

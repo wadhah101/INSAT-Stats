@@ -1,11 +1,11 @@
 import React from "react";
 import { Bar } from "react-chartjs-2";
-import { GenericCompareObject } from "src/@types/GenericDataObject";
-import { getRenamedField, makeChartData } from "src/utils/GenericCompareUtils";
+import { GenericStudentResult } from "src/@types/GenericDataObject";
+import { getRenamedField, makeChartData } from "src/utils/chartData.utils";
 import v from "voca";
 
 interface ICompareChartProps<T> {
-    data: GenericCompareObject<T>[];
+    data: GenericStudentResult<T>[];
     renamedFields: Record<string, string>;
     groupedFields: string[][];
     fieldMapper: (e: string, index: number, arr: string[]) => string;
