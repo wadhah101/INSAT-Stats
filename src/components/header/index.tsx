@@ -12,8 +12,6 @@ const tabMapper = {
     Ranking: "ranking",
 };
 
-const selectedFielere = "gl3-2021";
-
 export const Header: React.FC = () => {
     const [selectedTab, setSelectedTab] = useState(0);
     const router = useRouter();
@@ -23,11 +21,8 @@ export const Header: React.FC = () => {
         const splitttedPathname = router.pathname.split("/");
         // this check is stupid
         if (splitttedPathname.length >= 3) {
-            console.log(selectedTab);
-
             const base = splitttedPathname.slice(0, 3);
             const newUrl = [...base, tabMapper[tabs[e]]];
-            console.log(newUrl);
             router.push(newUrl.join("/"));
         }
     };

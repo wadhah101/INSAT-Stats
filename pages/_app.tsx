@@ -2,14 +2,12 @@ import React from "react";
 import { AppProps } from "next/app";
 import "tailwindcss/tailwind.css";
 import "@styles/global.scss";
-import { Provider } from "react-redux";
-import store from "@redux/store";
 import Head from "next/head";
 import { Header } from "@components/header";
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     return (
-        <Provider store={store}>
+        <React.Fragment>
             <Head>
                 <title>GL3 Statistics</title>
                 <meta
@@ -29,7 +27,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
 
             <Header />
             <Component {...pageProps} />
-        </Provider>
+        </React.Fragment>
     );
 }
 

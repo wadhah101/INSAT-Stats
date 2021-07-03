@@ -7,7 +7,7 @@ import {
     getGroupedFields,
     makeCompareData,
 } from "src/utils/GenericCompareUtils";
-import { MPIDataObject, MPISheet } from "src/@types/MPIDataObject";
+import { MPISheet } from "src/@types/MPIDataObject";
 
 const canRun = env.NODE_ENV === "development";
 
@@ -18,7 +18,7 @@ export default async (
     if (!canRun) res.status(400).json({ name: "server error" });
 
     // reading file
-    const buffer = await fsp.readFile("data/mpi.xlsx");
+    const buffer = await fsp.readFile("data/xls/mpi.xlsx");
     const sheet = xlsx.read(buffer);
     const rawData = xlsx.utils.sheet_to_json<MPISheet>(
         sheet.Sheets["Updated Sheet"],
@@ -52,7 +52,7 @@ export default async (
         () => false,
     );
 
-    const mpiOutput: MPIDataObject = {
+    const mpiOutput = {
         name: "MPI",
         fieldOrder,
         ignoredField,
@@ -61,6 +61,11 @@ export default async (
         groupedFields,
         compareData,
     };
+
+    await fsp.writeFile(
+        "data/json/MPI-2021.json",
+        JSON.stringify(mpiOutput, null, 2),
+    );
 
     res.status(200).json(mpiOutput);
 };

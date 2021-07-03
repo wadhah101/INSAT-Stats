@@ -137,7 +137,3 @@ export interface Gl3Sheet {
     TEST1: number;
     RANG: number;
 }
-
-export type GL3CompareObject = GenericCompareObject<Gl3Sheet>;
-
-export type GL3DataObject = GenericDataObject<Gl3Sheet>;

@@ -3,7 +3,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import * as fsp from "fs/promises";
 import xlsx from "xlsx";
 import v from "voca";
-import { GL3DataObject, Gl3Sheet } from "src/@types/GL3DataObject";
+import { Gl3Sheet } from "src/@types/GL3DataObject";
 import {
     getGroupedFields,
     makeCompareData,
@@ -18,7 +18,7 @@ export default async (
     if (!canRun) res.status(400).json({ name: "server error" });
 
     // reading file
-    const buffer = await fsp.readFile("data/GL3.xls");
+    const buffer = await fsp.readFile("data/xls/GL3.xls");
     const sheet = xlsx.read(buffer);
     const rawData = xlsx.utils.sheet_to_json<Gl3Sheet>(sheet.Sheets["GL3"]);
     const data = rawData.map((e) => ({
@@ -76,7 +76,7 @@ export default async (
         (x, y) => x.slice(-3) === y.slice(-3),
     );
 
-    const glOutput: GL3DataObject = {
+    const glOutput = {
         name: "GL3",
         fieldOrder,
         ignoredField,
@@ -85,6 +85,11 @@ export default async (
         groupedFields,
         compareData,
     };
+
+    await fsp.writeFile(
+        "data/json/GL3-2021.json",
+        JSON.stringify(glOutput, null, 2),
+    );
 
     res.status(200).json(glOutput);
 };

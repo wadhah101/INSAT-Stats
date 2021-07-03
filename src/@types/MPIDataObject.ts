@@ -50,7 +50,3 @@ export interface MPISheet {
     ScoreRT: string;
     "Rang RT": number;
 }
-
-export type MPICompareObject = GenericCompareObject<MPISheet>;
-
-export type MPIDataObject = GenericDataObject<MPISheet>;

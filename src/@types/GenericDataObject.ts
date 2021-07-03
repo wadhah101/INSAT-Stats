@@ -1,15 +1,20 @@
-export interface GenericCompareObject<T> {
+export interface Filiere {
+    name: string;
+    year: number;
+}
+
+interface Meh {
+    [K: string]: Record<string, number> | string;
+}
+
+export interface GenericCompareObject<T extends Meh | any> {
     data: Partial<T>;
     fullName: string;
     slug: string;
 }
 
-export interface GenericDataObject<T> {
+export interface GenericDataObject<T extends Meh | any> {
     name: string;
-    fieldOrder: string[];
-    ignoredField: string[];
-    renamedFields: Record<string, string>;
     year: string;
-    groupedFields: string[][];
     compareData: GenericCompareObject<T>[];
 }
