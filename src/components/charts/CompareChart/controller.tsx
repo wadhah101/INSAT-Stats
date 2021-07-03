@@ -6,9 +6,6 @@ import { GenericStudentResult } from "src/@types/GenericDataObject";
 
 interface ICompareChartProps {
     data: GenericStudentResult[];
-    groupedFields: string[][];
-    renamedFields: Record<string, string>;
-    fieldMapper: (e: string, index: number, arr: string[]) => string;
 }
 
 const CompareChart = ({

@@ -13,7 +13,7 @@ const makeData = (input: GenericStudentResult[], compAttribute: string) => {
         labels: sorted.map((e, index) => `${e.fullName} #${index + 1}`),
         datasets: [
             {
-                data: sorted.map((e) => e.data[compAttribute]),
+                data: sorted.map((e) => e.data[compAttribute][compAttribute]),
                 backgroundColor: input.map((_, index) =>
                     index % 2
                         ? "rgba(247, 39, 84, 0.2)"

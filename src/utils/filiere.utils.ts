@@ -14,8 +14,6 @@ export const getStaticPathsFiliere: GetStaticPaths = async () => {
 };
 
 export const getStaticPropsFiliere: GetStaticProps = async (ctx) => {
-    console.log({ ctx });
-
     const filiereQuery = ctx.params.filiere;
 
     const buffer = await fsp.readFile(`data/json/${filiereQuery}.json`, {
@@ -24,8 +22,6 @@ export const getStaticPropsFiliere: GetStaticProps = async (ctx) => {
 
     const { filiere, studentsResults }: GenericFiliereResult =
         JSON.parse(buffer);
-
-    console.log(filiere);
 
     return {
         props: {

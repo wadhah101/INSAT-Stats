@@ -9,9 +9,7 @@ interface ICompareChartProps {
 }
 
 const IndivChart = ({ data }: ICompareChartProps): JSX.Element => {
-    const [indexA, setIndexA] = React.useState(
-        Math.floor(Math.random() * data.length),
-    );
+    const [indexA, setIndexA] = React.useState(0);
 
     const handleChangeA = (event) => {
         setIndexA(event.target.value);

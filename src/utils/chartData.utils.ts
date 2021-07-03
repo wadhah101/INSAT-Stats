@@ -67,13 +67,13 @@ export const makeStudentData = <T>(
 };
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-export const makeChartData = (input: GenericStudentResult[]) => {
-    const fields = Object.keys(input[0].data);
+export const makeChartData = (input: GenericStudentResult[], field: string) => {
+    const fields = Object.keys(input[0].data[field]);
     return {
         labels: fields,
         datasets: input.map((person, index) => ({
             label: person.fullName,
-            data: fields.map((field) => person.data[field]),
+            data: fields.map((e) => person.data[field][e]),
             backgroundColor:
                 index % 2
                     ? "rgba(247, 39, 84, 0.2)"

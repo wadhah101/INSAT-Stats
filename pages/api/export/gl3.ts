@@ -68,7 +68,7 @@ export default async (
         data,
         groupedFields,
         renamedFields,
-        (e) => `${e.NOM}  ${e.PRENOM}`,
+        (e) => v.titleCase(`${e.NOM}  ${e.PRENOM}`),
         (e) => v.kebabCase(`${e.NOM}  ${e.PRENOM}`),
         (e) => e.slice(-3),
         (e) => e.slice(0, -3),
