@@ -2,12 +2,11 @@ import React from "react";
 import { Bar } from "react-chartjs-2";
 import { GenericStudentResult } from "src/@types/GenericDataObject";
 
-const makeData = <T extends unknown>(
-    input: GenericStudentResult<T>[],
-    compAttribute: string,
-) => {
+const makeData = (input: GenericStudentResult[], compAttribute: string) => {
     const sorted = [...input].sort(
-        (a, b) => b.data[compAttribute] - a.data[compAttribute],
+        (a, b) =>
+            b.data[compAttribute][compAttribute] -
+            a.data[compAttribute][compAttribute],
     );
 
     return {
@@ -52,15 +51,12 @@ const options = {
         },
     },
 };
-interface IMoyChart<T> {
-    data: GenericStudentResult<T>[];
+interface IMoyChart {
+    data: GenericStudentResult[];
     compAttribute: string;
 }
 
-const RankingChart = <T extends unknown>({
-    compAttribute,
-    data,
-}: IMoyChart<T>): JSX.Element => {
+const RankingChart = ({ compAttribute, data }: IMoyChart): JSX.Element => {
     return (
         <Bar
             type="bar"

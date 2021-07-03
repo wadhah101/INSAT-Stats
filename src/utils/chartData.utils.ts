@@ -1,19 +1,15 @@
 import * as R from "ramda";
 import { GenericStudentResult } from "src/@types/GenericDataObject";
 
-export const getRenamedField = (
-    e: string,
-    renamedFields: Record<string, string>,
-): string => renamedFields[e] || e;
-
+// sorts fields #1
 export const getSortedFields = <T>(
     inp: T,
-    ignoredField: string[],
+    ignoreFunction: (e: string) => boolean,
     fieldOrder: string[],
 ): string[] => {
     const fields = Object.keys(inp)
         .filter((e) => Number(inp[e]))
-        .filter((e) => !ignoredField.find((e1) => e1 === e));
+        .filter(ignoreFunction);
 
     return [...fields].sort(
         (x, y) =>
@@ -22,41 +18,59 @@ export const getSortedFields = <T>(
     );
 };
 
-export const getGroupedFields = <T extends Record<string, string | number>>(
+// groups fields #2
+export const getGroupedFields = <T>(
     e: T,
-    ignoredField: string[],
+    ignoreFunction: (e: string) => boolean,
     fieldOrder: string[],
     equalityFunction: (x: string, y: string) => boolean,
 ): string[][] =>
     R.groupWith<string>(equalityFunction)(
-        getSortedFields(e, ignoredField, fieldOrder),
+        getSortedFields(e, ignoreFunction, fieldOrder),
     );
 
-export const makeCompareData = <T extends Record<string, string | number>>(
+// renames field #3
+export const getRenamedField = (
+    e: string,
+    renamedFields: Record<string, string>,
+): string => renamedFields[e] || e;
+
+// generate json data #3
+export const makeStudentData = <T>(
     inp: T[],
-    ignoredField: string[],
-    fieldOrder: string[],
+    groupedFields: string[][],
+    renamedFields: Record<string, string>,
     fullNameFactory: (e: T) => string,
     slugFactory: (e: T) => string,
-): GenericStudentResult<T>[] => {
-    const a = inp[0];
-    const sortedFields = getSortedFields(a, ignoredField, fieldOrder);
+    groupingFunction: (e: string) => string,
+    ungroupingFunction: (e: string) => string,
+): GenericStudentResult[] => {
     return inp.map((x) => ({
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        data: Object.fromEntries(sortedFields.map((e) => [e, x[e]])) as any,
+        data: Object.fromEntries(
+            groupedFields.map((e) => {
+                if (e.length === 1) return [e[0], { [e[0]]: x[e[0]] }];
+
+                const a = Object.fromEntries(
+                    e.map((y) => [ungroupingFunction(y), x[y]]),
+                );
+
+                return [
+                    getRenamedField(groupingFunction(e[0]), renamedFields),
+                    a,
+                ];
+            }),
+        ),
         fullName: fullNameFactory(x),
         slug: slugFactory(x),
     }));
 };
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-export const makeChartData = <T>(
-    input: GenericStudentResult<T>[],
-    fields: string[],
-    fieldMapper: (e: string, ind: number, arr: string[]) => string,
-) => {
+export const makeChartData = (input: GenericStudentResult[]) => {
+    const fields = Object.keys(input[0].data);
     return {
-        labels: fields.map(fieldMapper),
+        labels: fields,
         datasets: input.map((person, index) => ({
             label: person.fullName,
             data: fields.map((field) => person.data[field]),

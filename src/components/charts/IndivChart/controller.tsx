@@ -4,19 +4,11 @@ import MenuItem from "@material-ui/core/MenuItem";
 import { GenericStudentResult } from "src/@types/GenericDataObject";
 import StatelessCompareChart from "../CompareChart/stateless";
 
-interface ICompareChartProps<T> {
-    data: GenericStudentResult<T>[];
-    renamedFields: Record<string, string>;
-    fieldMapper: (e: string, index: number, arr: string[]) => string;
-    groupedFields: string[][];
+interface ICompareChartProps {
+    data: GenericStudentResult[];
 }
 
-const IndivChart = <T extends unknown>({
-    data,
-    fieldMapper,
-    renamedFields,
-    groupedFields,
-}: ICompareChartProps<T>): JSX.Element => {
+const IndivChart = ({ data }: ICompareChartProps): JSX.Element => {
     const [indexA, setIndexA] = React.useState(
         Math.floor(Math.random() * data.length),
     );
@@ -45,12 +37,7 @@ const IndivChart = <T extends unknown>({
                     </div>
                 </div>
             </div>
-            <StatelessCompareChart
-                renamedFields={renamedFields}
-                groupedFields={groupedFields}
-                fieldMapper={fieldMapper}
-                data={[data[indexA]]}
-            />
+            <StatelessCompareChart data={[data[indexA]]} />
         </div>
     );
 };

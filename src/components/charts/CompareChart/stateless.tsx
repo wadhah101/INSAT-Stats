@@ -1,22 +1,11 @@
 import React from "react";
-import { Bar } from "react-chartjs-2";
 import { GenericStudentResult } from "src/@types/GenericDataObject";
-import { getRenamedField, makeChartData } from "src/utils/chartData.utils";
-import v from "voca";
 
-interface ICompareChartProps<T> {
-    data: GenericStudentResult<T>[];
-    renamedFields: Record<string, string>;
-    groupedFields: string[][];
-    fieldMapper: (e: string, index: number, arr: string[]) => string;
+interface ICompareChartProps {
+    data: GenericStudentResult[];
 }
 
-const StatelessCompareChart = <T extends unknown>({
-    data,
-    renamedFields,
-    fieldMapper,
-    groupedFields,
-}: ICompareChartProps<T>): JSX.Element => {
+const StatelessCompareChart = ({ data }: ICompareChartProps): JSX.Element => {
     const options = {
         plugins: {
             legend: {
@@ -36,7 +25,7 @@ const StatelessCompareChart = <T extends unknown>({
 
     return (
         <div className="grid gap-4 md:grid-cols-2">
-            {groupedFields.map((groupedNote, ind) => (
+            {/* {groupedFields.map((groupedNote, ind) => (
                 <div
                     className="p-2 border border-black md:p-4 border-opacity-10"
                     key={ind}
@@ -53,11 +42,11 @@ const StatelessCompareChart = <T extends unknown>({
                     </h2>
                     <Bar
                         type="bar"
-                        data={makeChartData(data, groupedNote, fieldMapper)}
+                        data={makeChartData(data)}
                         options={options}
                     />
                 </div>
-            ))}
+            ))} */}
         </div>
     );
 };

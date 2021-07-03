@@ -4,7 +4,8 @@ import * as fsp from "fs/promises";
 import xlsx from "xlsx";
 import v from "voca";
 import { Gl3Sheet } from "src/@types/GL3DataObject";
-import { getGroupedFields, makeCompareData } from "src/utils/chartData.utils";
+import { getGroupedFields, makeStudentData } from "src/utils/chartData.utils";
+import { GenericFiliereResult } from "src/@types/GenericDataObject";
 
 const canRun = env.NODE_ENV === "development";
 
@@ -17,12 +18,7 @@ export default async (
     // reading file
     const buffer = await fsp.readFile("data/xls/GL3.xls");
     const sheet = xlsx.read(buffer);
-    const rawData = xlsx.utils.sheet_to_json<Gl3Sheet>(sheet.Sheets["GL3"]);
-    const data = rawData.map((e) => ({
-        ...e,
-        NOM: v.titleCase(e.NOM),
-        PRENOM: v.titleCase(e.PRENOM),
-    }));
+    const data = xlsx.utils.sheet_to_json<Gl3Sheet>(sheet.Sheets["GL3"]);
 
     const renamedFields = Object.fromEntries([
         ["MOY_ANN", "Moyenne Annuel"],
@@ -54,33 +50,40 @@ export default async (
         ["B25", "PPP"],
     ]);
 
-    const ignoredField = ["IDENTIF", "NUM_INS"];
+    const ignoreFunction = (e: string) =>
+        !["IDENTIF", "NUM_INS", "TEST", "TEST1"].find((e1) => e1 === e) &&
+        !e.startsWith("MGM");
 
     const fieldOrder = ["RANG", "MOY_ANN"];
 
-    // making comparison data
-    const compareData = makeCompareData(
-        data,
-        ignoredField,
-        fieldOrder,
-        (e) => `${e.NOM}  ${e.PRENOM}`,
-        (e) => v.kebabCase(`${e.NOM}  ${e.PRENOM}`),
-    ).sort((a, b) => a.fullName.localeCompare(b.fullName));
     const groupedFields = getGroupedFields(
         data[0],
-        ignoredField,
+        ignoreFunction,
         fieldOrder,
         (x, y) => x.slice(-3) === y.slice(-3),
     );
 
-    const glOutput = {
-        name: "GL3",
-        year: "2021",
-        compareData,
+    // making comparison data
+    const compareData = makeStudentData(
+        data,
+        groupedFields,
+        renamedFields,
+        (e) => `${e.NOM}  ${e.PRENOM}`,
+        (e) => v.kebabCase(`${e.NOM}  ${e.PRENOM}`),
+        (e) => e.slice(-3),
+        (e) => e.slice(0, -3),
+    ).sort((a, b) => a.fullName.localeCompare(b.fullName));
+
+    const glOutput: GenericFiliereResult = {
+        filiere: {
+            name: "gl3",
+            year: 2021,
+        },
+        studentsResults: compareData,
     };
 
     await fsp.writeFile(
-        "data/json/GL3-2021.json",
+        "data/json/gl3-2021.json",
         JSON.stringify(glOutput, null, 2),
     );
 

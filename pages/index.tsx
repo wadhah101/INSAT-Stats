@@ -14,11 +14,9 @@ const Home: NextPage = () => {
     });
 
     const regenerateJSON = () => {
-        instance
-            .get("/api/export/filiere")
-            .then(() => instance.get("/api/export/gl3"))
-            .then(() => instance.get("/api/export/mpi"))
-            .then(() => console.log("OK JSON"));
+        instance.get("/api/export/filiere");
+        instance.get("/api/export/gl3");
+        instance.get("/api/export/mpi");
     };
 
     return (

@@ -1,0 +1,3944 @@
+{
+  "filiere": {
+    "name": "mpi",
+    "year": 2021
+  },
+  "studentsResults": [
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "7.880"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.865"
+        }
+      },
+      "fullName": "A1Doudi  Mayssen",
+      "slug": "a-1-doudi-mayssen"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.110"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.000"
+        }
+      },
+      "fullName": "Abdelkader  Iheb",
+      "slug": "abdelkader-iheb"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.140"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.390"
+        }
+      },
+      "fullName": "Abdelkader  Sarra",
+      "slug": "abdelkader-sarra"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.320"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.770"
+        }
+      },
+      "fullName": "Abdelkefi  Farah",
+      "slug": "abdelkefi-farah"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.500"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.115"
+        }
+      },
+      "fullName": "Abdennabih  Firas",
+      "slug": "abdennabih-firas"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.480"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.000"
+        }
+      },
+      "fullName": "Abid  Maha",
+      "slug": "abid-maha"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.560"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.350"
+        }
+      },
+      "fullName": "Abidi  Nada",
+      "slug": "abidi-nada"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.230"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.590"
+        }
+      },
+      "fullName": "Achour  Oussama",
+      "slug": "achour-oussama"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Aguel  Mohamed",
+      "slug": "aguel-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.360"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.165"
+        }
+      },
+      "fullName": "Ahmed  Hadil",
+      "slug": "ahmed-hadil"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.840"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.500"
+        }
+      },
+      "fullName": "Aitbaalla  Mohamed",
+      "slug": "aitbaalla-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.310"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.440"
+        }
+      },
+      "fullName": "Akacha  Nageuraziz",
+      "slug": "akacha-nageuraziz"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "7.240"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "6.390"
+        }
+      },
+      "fullName": "Akkari  Majd",
+      "slug": "akkari-majd"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Akrout  Tarer",
+      "slug": "akrout-tarer"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "6.420"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "7.365"
+        }
+      },
+      "fullName": "Albouchi  Nada",
+      "slug": "albouchi-nada"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.460"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.650"
+        }
+      },
+      "fullName": "Ali  Walae",
+      "slug": "ali-walae"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.340"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.350"
+        }
+      },
+      "fullName": "Amara  Mariem",
+      "slug": "amara-mariem"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.750"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.775"
+        }
+      },
+      "fullName": "Amara  Mohamed",
+      "slug": "amara-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "6.270"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.075"
+        }
+      },
+      "fullName": "Amara  Taha",
+      "slug": "amara-taha"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "4.630"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "2.700"
+        }
+      },
+      "fullName": "Ammar  Hamza",
+      "slug": "ammar-hamza"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.060"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.240"
+        }
+      },
+      "fullName": "Anibri  Oussama",
+      "slug": "anibri-oussama"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.500"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.005"
+        }
+      },
+      "fullName": "Ansi  Rasslen",
+      "slug": "ansi-rasslen"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.350"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.765"
+        }
+      },
+      "fullName": "Aouadi  Amira",
+      "slug": "aouadi-amira"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.240"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "6.090"
+        }
+      },
+      "fullName": "Aouadi  Hayder",
+      "slug": "aouadi-hayder"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.620"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.975"
+        }
+      },
+      "fullName": "Arfaoui  Maram",
+      "slug": "arfaoui-maram"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "6.080"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "3.890"
+        }
+      },
+      "fullName": "Aroua  Kounouz",
+      "slug": "aroua-kounouz"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "7.730"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "5.300"
+        }
+      },
+      "fullName": "Ati  Youssef",
+      "slug": "ati-youssef"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.380"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.225"
+        }
+      },
+      "fullName": "Att1A  Naima",
+      "slug": "att-1-a-naima"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "7.750"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.140"
+        }
+      },
+      "fullName": "Attia  Seli",
+      "slug": "attia-seli"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.260"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.090"
+        }
+      },
+      "fullName": "Attouchi  Akram",
+      "slug": "attouchi-akram"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.440"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "7.050"
+        }
+      },
+      "fullName": "Ayachi  Mohamed",
+      "slug": "ayachi-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.630"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.700"
+        }
+      },
+      "fullName": "Ayed  Talel",
+      "slug": "ayed-talel"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "1.650"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Azaiez  Khalil",
+      "slug": "azaiez-khalil"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.160"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "16.475"
+        }
+      },
+      "fullName": "AzzaBl  Sofiene",
+      "slug": "azza-bl-sofiene"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.920"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.115"
+        }
+      },
+      "fullName": "Bacha  Nermine",
+      "slug": "bacha-nermine"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.070"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "6.150"
+        }
+      },
+      "fullName": "Badr1  Chedlyaziz",
+      "slug": "badr-1-chedlyaziz"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.130"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.275"
+        }
+      },
+      "fullName": "Badri  Louay",
+      "slug": "badri-louay"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.700"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.265"
+        }
+      },
+      "fullName": "Bahri  Ranim",
+      "slug": "bahri-ranim"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.110"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.830"
+        }
+      },
+      "fullName": "Baklouti  Amena",
+      "slug": "baklouti-amena"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.680"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.490"
+        }
+      },
+      "fullName": "Barbouche  Sadok",
+      "slug": "barbouche-sadok"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.860"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.525"
+        }
+      },
+      "fullName": "Bargougui  Haykel",
+      "slug": "bargougui-haykel"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.580"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.875"
+        }
+      },
+      "fullName": "Barhoumi  Dhieddine",
+      "slug": "barhoumi-dhieddine"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "15.180"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "16.715"
+        }
+      },
+      "fullName": "Barnoussi  Sarra",
+      "slug": "barnoussi-sarra"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.650"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.450"
+        }
+      },
+      "fullName": "Belfayez  Rayen",
+      "slug": "belfayez-rayen"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.790"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.725"
+        }
+      },
+      "fullName": "Belhoula  Yassine",
+      "slug": "belhoula-yassine"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.610"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.025"
+        }
+      },
+      "fullName": "Belkh1Ri  Ahmed",
+      "slug": "belkh-1-ri-ahmed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "5.970"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "6.200"
+        }
+      },
+      "fullName": "Belkh1Ria  Abderrahme",
+      "slug": "belkh-1-ria-abderrahme"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.670"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "17.425"
+        }
+      },
+      "fullName": "Belkhadem  Yassine",
+      "slug": "belkhadem-yassine"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.560"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.320"
+        }
+      },
+      "fullName": "Belkhir  Fahd",
+      "slug": "belkhir-fahd"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.920"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.625"
+        }
+      },
+      "fullName": "Bellaaj  Mohamed",
+      "slug": "bellaaj-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Bellazreg  Mohamed",
+      "slug": "bellazreg-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.190"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "7.065"
+        }
+      },
+      "fullName": "Benaissa  Ahmed",
+      "slug": "benaissa-ahmed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.180"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.050"
+        }
+      },
+      "fullName": "Benammar  Hamza",
+      "slug": "benammar-hamza"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.720"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.125"
+        }
+      },
+      "fullName": "Benarbia  Meriam",
+      "slug": "benarbia-meriam"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.070"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.475"
+        }
+      },
+      "fullName": "Benarous  Elyes",
+      "slug": "benarous-elyes"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.230"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.225"
+        }
+      },
+      "fullName": "Benhajla  Nour",
+      "slug": "benhajla-nour"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "6.340"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "4.440"
+        }
+      },
+      "fullName": "Benhajla  Salma",
+      "slug": "benhajla-salma"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.880"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.550"
+        }
+      },
+      "fullName": "Benhalima  Sarrah",
+      "slug": "benhalima-sarrah"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.890"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "7.450"
+        }
+      },
+      "fullName": "Benhamadi  Iyed",
+      "slug": "benhamadi-iyed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.470"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "5.915"
+        }
+      },
+      "fullName": "Benhamouda  Samer",
+      "slug": "benhamouda-samer"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.770"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.965"
+        }
+      },
+      "fullName": "Benhnia  Int1Dhar",
+      "slug": "benhnia-int-1-dhar"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.100"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.265"
+        }
+      },
+      "fullName": "Benjeddou  May",
+      "slug": "benjeddou-may"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.580"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.565"
+        }
+      },
+      "fullName": "Benjemaa  Marouen",
+      "slug": "benjemaa-marouen"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.340"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.825"
+        }
+      },
+      "fullName": "Benmansour  Feriel",
+      "slug": "benmansour-feriel"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "5.180"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "3.525"
+        }
+      },
+      "fullName": "Benmariem  Aymen",
+      "slug": "benmariem-aymen"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.350"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "17.500"
+        }
+      },
+      "fullName": "Benmbarek  Ranim",
+      "slug": "benmbarek-ranim"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.390"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.540"
+        }
+      },
+      "fullName": "Benmefteh  Firas",
+      "slug": "benmefteh-firas"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.530"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.440"
+        }
+      },
+      "fullName": "Benmefteh  Shams",
+      "slug": "benmefteh-shams"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.710"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.750"
+        }
+      },
+      "fullName": "Benmehrez  Mariem",
+      "slug": "benmehrez-mariem"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Benmohamed  Undefined",
+      "slug": "benmohamed-undefined"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "14.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.825"
+        }
+      },
+      "fullName": "Bennejma  Noureddine",
+      "slug": "bennejma-noureddine"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.630"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.915"
+        }
+      },
+      "fullName": "Benomrane  Mohamed",
+      "slug": "benomrane-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.520"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.000"
+        }
+      },
+      "fullName": "Benothman  Dhia",
+      "slug": "benothman-dhia"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.940"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.100"
+        }
+      },
+      "fullName": "Benrejeb  Mohamed",
+      "slug": "benrejeb-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.780"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.180"
+        }
+      },
+      "fullName": "Benromdhane  Nour",
+      "slug": "benromdhane-nour"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.250"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.740"
+        }
+      },
+      "fullName": "Benromdhane  Sirine",
+      "slug": "benromdhane-sirine"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.730"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.825"
+        }
+      },
+      "fullName": "Bensalha  Mehdi",
+      "slug": "bensalha-mehdi"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Bensassi  Slim",
+      "slug": "bensassi-slim"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Benslimen  Mohamed",
+      "slug": "benslimen-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.010"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.900"
+        }
+      },
+      "fullName": "Bentaher  Nouha",
+      "slug": "bentaher-nouha"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.630"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.440"
+        }
+      },
+      "fullName": "Benyahmed  Ons",
+      "slug": "benyahmed-ons"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.290"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.365"
+        }
+      },
+      "fullName": "Benyoussef  Malek",
+      "slug": "benyoussef-malek"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.730"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.940"
+        }
+      },
+      "fullName": "Benzaied  Mouna",
+      "slug": "benzaied-mouna"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.970"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.475"
+        }
+      },
+      "fullName": "Benzaied  Saifeddine",
+      "slug": "benzaied-saifeddine"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.690"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.715"
+        }
+      },
+      "fullName": "Benzribia  Chaima",
+      "slug": "benzribia-chaima"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.680"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.325"
+        }
+      },
+      "fullName": "Besbes  Mohamed",
+      "slug": "besbes-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.160"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.950"
+        }
+      },
+      "fullName": "Besbes  Omar",
+      "slug": "besbes-omar"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.570"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.990"
+        }
+      },
+      "fullName": "Besrour  Ines",
+      "slug": "besrour-ines"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.430"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.390"
+        }
+      },
+      "fullName": "Bouabid  Mohamed",
+      "slug": "bouabid-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.730"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.395"
+        }
+      },
+      "fullName": "Bouali  Mohamed",
+      "slug": "bouali-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.880"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.550"
+        }
+      },
+      "fullName": "Boubakri  Maoæ",
+      "slug": "boubakri-maoæ"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.890"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.890"
+        }
+      },
+      "fullName": "Boubich  Rania",
+      "slug": "boubich-rania"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.560"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "16.065"
+        }
+      },
+      "fullName": "Bouchnak  Mohamed",
+      "slug": "bouchnak-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.790"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.725"
+        }
+      },
+      "fullName": "Boudriga  Bochra",
+      "slug": "boudriga-bochra"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Boughanmi  Anas",
+      "slug": "boughanmi-anas"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.910"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "17.440"
+        }
+      },
+      "fullName": "Bouhaha  Aymen",
+      "slug": "bouhaha-aymen"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.530"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.445"
+        }
+      },
+      "fullName": "Bouhlel  Chaima",
+      "slug": "bouhlel-chaima"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.610"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.050"
+        }
+      },
+      "fullName": "Boussaid  Ahmedaziz",
+      "slug": "boussaid-ahmedaziz"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "7.240"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.720"
+        }
+      },
+      "fullName": "Boussetta  Yasmine",
+      "slug": "boussetta-yasmine"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.120"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.825"
+        }
+      },
+      "fullName": "Bouzid  Mohamed",
+      "slug": "bouzid-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.640"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "16.340"
+        }
+      },
+      "fullName": "Chaabini  Amine",
+      "slug": "chaabini-amine"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.530"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.690"
+        }
+      },
+      "fullName": "Chaari  Mahdi",
+      "slug": "chaari-mahdi"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.340"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.225"
+        }
+      },
+      "fullName": "Chaibi  Anas",
+      "slug": "chaibi-anas"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.240"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.025"
+        }
+      },
+      "fullName": "Chaieb  Eya",
+      "slug": "chaieb-eya"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.740"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.400"
+        }
+      },
+      "fullName": "Chaieb  Mohamed",
+      "slug": "chaieb-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.180"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.675"
+        }
+      },
+      "fullName": "Chammam  Elyes",
+      "slug": "chammam-elyes"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.250"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.915"
+        }
+      },
+      "fullName": "Chaouachi  Oussama",
+      "slug": "chaouachi-oussama"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.340"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.300"
+        }
+      },
+      "fullName": "Charrada  Nizar",
+      "slug": "charrada-nizar"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.280"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.950"
+        }
+      },
+      "fullName": "Chatti  Mouhib",
+      "slug": "chatti-mouhib"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "6.820"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "6.925"
+        }
+      },
+      "fullName": "Chebi  Aicha",
+      "slug": "chebi-aicha"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.160"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.840"
+        }
+      },
+      "fullName": "Cheikhbrah1M  Mariem",
+      "slug": "cheikhbrah-1-m-mariem"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.860"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.290"
+        }
+      },
+      "fullName": "Chelbi  Syrine",
+      "slug": "chelbi-syrine"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.990"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.590"
+        }
+      },
+      "fullName": "Cherie  Mehdi",
+      "slug": "cherie-mehdi"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.410"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "7.700"
+        }
+      },
+      "fullName": "Cherif  Reyhan",
+      "slug": "cherif-reyhan"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.050"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.025"
+        }
+      },
+      "fullName": "Cherni  Anas",
+      "slug": "cherni-anas"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.360"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.750"
+        }
+      },
+      "fullName": "Chiboub  Mahmoud",
+      "slug": "chiboub-mahmoud"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.750"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.865"
+        }
+      },
+      "fullName": "Chourabi  Wiem",
+      "slug": "chourabi-wiem"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.900"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.365"
+        }
+      },
+      "fullName": "Dakhlaoui  Mouafak",
+      "slug": "dakhlaoui-mouafak"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.400"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.950"
+        }
+      },
+      "fullName": "Dey  Adame",
+      "slug": "dey-adame"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.180"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.865"
+        }
+      },
+      "fullName": "Dhaouadi  Yassine",
+      "slug": "dhaouadi-yassine"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.140"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.650"
+        }
+      },
+      "fullName": "Dhif  Eya",
+      "slug": "dhif-eya"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.560"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "17.015"
+        }
+      },
+      "fullName": "Dhouib  Mohamed",
+      "slug": "dhouib-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.700"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.975"
+        }
+      },
+      "fullName": "Djebb1  Jawhar",
+      "slug": "djebb-1-jawhar"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.640"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.290"
+        }
+      },
+      "fullName": "Doss  Chiraz",
+      "slug": "doss-chiraz"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.230"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.175"
+        }
+      },
+      "fullName": "Dridi  Hamza",
+      "slug": "dridi-hamza"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "7.570"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.845"
+        }
+      },
+      "fullName": "Dridi  Le1La",
+      "slug": "dridi-le-1-la"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Driss  Meriem",
+      "slug": "driss-meriem"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.580"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "6.465"
+        }
+      },
+      "fullName": "Elati  Khalil",
+      "slug": "elati-khalil"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.730"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.540"
+        }
+      },
+      "fullName": "Elbir  Walid",
+      "slug": "elbir-walid"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.490"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "7.000"
+        }
+      },
+      "fullName": "Elloumi  Omar",
+      "slug": "elloumi-omar"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.520"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.400"
+        }
+      },
+      "fullName": "Ellouze  Karim",
+      "slug": "ellouze-karim"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.950"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.165"
+        }
+      },
+      "fullName": "Elmabrouk  Amal",
+      "slug": "elmabrouk-amal"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "5.070"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.800"
+        }
+      },
+      "fullName": "Etteib  Tessnim",
+      "slug": "etteib-tessnim"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.920"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.675"
+        }
+      },
+      "fullName": "Fekihali  Nour",
+      "slug": "fekihali-nour"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.950"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.550"
+        }
+      },
+      "fullName": "Fendri  AdaAï",
+      "slug": "fendri-ada-aï"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.200"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.615"
+        }
+      },
+      "fullName": "Ferai!  Mohamed",
+      "slug": "ferai-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.190"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.075"
+        }
+      },
+      "fullName": "Ferchichi  Tasnim",
+      "slug": "ferchichi-tasnim"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.130"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.700"
+        }
+      },
+      "fullName": "Feydi  Nourhene",
+      "slug": "feydi-nourhene"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Fezai  Mayssa",
+      "slug": "fezai-mayssa"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.250"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.450"
+        }
+      },
+      "fullName": "Fnaich  Wissal",
+      "slug": "fnaich-wissal"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "14.450"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.625"
+        }
+      },
+      "fullName": "Frikha  Ahmed",
+      "slug": "frikha-ahmed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.680"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.875"
+        }
+      },
+      "fullName": "Gabsi  Hamayda",
+      "slug": "gabsi-hamayda"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.100"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.115"
+        }
+      },
+      "fullName": "Gaidi  Emna",
+      "slug": "gaidi-emna"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.870"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.750"
+        }
+      },
+      "fullName": "Gaied  Sadok",
+      "slug": "gaied-sadok"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.610"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.990"
+        }
+      },
+      "fullName": "Gassab  Omar",
+      "slug": "gassab-omar"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.450"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.420"
+        }
+      },
+      "fullName": "Gazzah  Achraf",
+      "slug": "gazzah-achraf"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.700"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.165"
+        }
+      },
+      "fullName": "Ghabri  Salma",
+      "slug": "ghabri-salma"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "5.950"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.965"
+        }
+      },
+      "fullName": "Ghadhbani  Achref",
+      "slug": "ghadhbani-achref"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.120"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.075"
+        }
+      },
+      "fullName": "Ghalleb  Mohamed",
+      "slug": "ghalleb-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.250"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.275"
+        }
+      },
+      "fullName": "Ghaouari  Kousai",
+      "slug": "ghaouari-kousai"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.050"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.600"
+        }
+      },
+      "fullName": "Gharbi  Yasmine",
+      "slug": "gharbi-yasmine"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.400"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.990"
+        }
+      },
+      "fullName": "Gharbi  Youssef",
+      "slug": "gharbi-youssef"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.080"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.340"
+        }
+      },
+      "fullName": "Ghribi  Chedi",
+      "slug": "ghribi-chedi"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.630"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.425"
+        }
+      },
+      "fullName": "Glili  Ahmed",
+      "slug": "glili-ahmed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.970"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.600"
+        }
+      },
+      "fullName": "Grami  Maha",
+      "slug": "grami-maha"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.970"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.350"
+        }
+      },
+      "fullName": "Guedidi  Melek",
+      "slug": "guedidi-melek"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.670"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.370"
+        }
+      },
+      "fullName": "Guedidi  Selma",
+      "slug": "guedidi-selma"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.110"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.300"
+        }
+      },
+      "fullName": "Guesmi  Mohamed",
+      "slug": "guesmi-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.950"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.925"
+        }
+      },
+      "fullName": "Habachi  Arij",
+      "slug": "habachi-arij"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.500"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.115"
+        }
+      },
+      "fullName": "Habib  Achraf",
+      "slug": "habib-achraf"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "14.700"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.550"
+        }
+      },
+      "fullName": "Haddad  Hani",
+      "slug": "haddad-hani"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.630"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "6.425"
+        }
+      },
+      "fullName": "Hafnaout  Karim",
+      "slug": "hafnaout-karim"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.630"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.595"
+        }
+      },
+      "fullName": "Haji  Houssem",
+      "slug": "haji-houssem"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.130"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.325"
+        }
+      },
+      "fullName": "Hajji  Roua",
+      "slug": "hajji-roua"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.860"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.190"
+        }
+      },
+      "fullName": "Hamdani  Aya",
+      "slug": "hamdani-aya"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Hamdi  Majd",
+      "slug": "hamdi-majd"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.190"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.715"
+        }
+      },
+      "fullName": "Hamdj  Insaf",
+      "slug": "hamdj-insaf"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.770"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.600"
+        }
+      },
+      "fullName": "Hamdj  Mohamed",
+      "slug": "hamdj-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.110"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.540"
+        }
+      },
+      "fullName": "Hamidou  Nessma",
+      "slug": "hamidou-nessma"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.380"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.865"
+        }
+      },
+      "fullName": "Hammami  Nada",
+      "slug": "hammami-nada"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.325"
+        }
+      },
+      "fullName": "Hammami  Omar",
+      "slug": "hammami-omar"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.860"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.450"
+        }
+      },
+      "fullName": "Hamouda  Anis",
+      "slug": "hamouda-anis"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.270"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.615"
+        }
+      },
+      "fullName": "Hamraoui  Sahar",
+      "slug": "hamraoui-sahar"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.910"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.725"
+        }
+      },
+      "fullName": "Hannachi  Chaima",
+      "slug": "hannachi-chaima"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.190"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.900"
+        }
+      },
+      "fullName": "Hassoun  Mohamed",
+      "slug": "hassoun-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.790"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.650"
+        }
+      },
+      "fullName": "Heni  Mohamed",
+      "slug": "heni-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.740"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.640"
+        }
+      },
+      "fullName": "Hermassi  Mohamed",
+      "slug": "hermassi-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.420"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "6.975"
+        }
+      },
+      "fullName": "Hertelli  Salma",
+      "slug": "hertelli-salma"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.820"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.340"
+        }
+      },
+      "fullName": "Jabloun  Omar",
+      "slug": "jabloun-omar"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "7.920"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "3.565"
+        }
+      },
+      "fullName": "Jallouli  Yacine",
+      "slug": "jallouli-yacine"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.050"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.140"
+        }
+      },
+      "fullName": "Jandoubi  Jaouher",
+      "slug": "jandoubi-jaouher"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.040"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.900"
+        }
+      },
+      "fullName": "Jarraya  Habib",
+      "slug": "jarraya-habib"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Jemmali  Mohamed",
+      "slug": "jemmali-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.540"
+        }
+      },
+      "fullName": "Jlassi  Oussama",
+      "slug": "jlassi-oussama"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "7.200"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.390"
+        }
+      },
+      "fullName": "Jouini  Mohamed",
+      "slug": "jouini-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.470"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.025"
+        }
+      },
+      "fullName": "Jouini  Nouha",
+      "slug": "jouini-nouha"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.430"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.850"
+        }
+      },
+      "fullName": "Kaabachi  Imen",
+      "slug": "kaabachi-imen"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.090"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.225"
+        }
+      },
+      "fullName": "Kaaouiche  Yasmin",
+      "slug": "kaaouiche-yasmin"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.020"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.950"
+        }
+      },
+      "fullName": "Kacem  Abdelaziz",
+      "slug": "kacem-abdelaziz"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.870"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.600"
+        }
+      },
+      "fullName": "Kallel  Ahmed",
+      "slug": "kallel-ahmed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Kamel  Mohamed",
+      "slug": "kamel-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "4.550"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "5.000"
+        }
+      },
+      "fullName": "Kardous  Amani",
+      "slug": "kardous-amani"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.010"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.840"
+        }
+      },
+      "fullName": "Khadhraoui  Mohamed",
+      "slug": "khadhraoui-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Khafif  Yahya",
+      "slug": "khafif-yahya"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.700"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.125"
+        }
+      },
+      "fullName": "Khaldi  Ichrak",
+      "slug": "khaldi-ichrak"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.810"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.775"
+        }
+      },
+      "fullName": "Khammassi  Louay",
+      "slug": "khammassi-louay"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.750"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "16.215"
+        }
+      },
+      "fullName": "Khelif  Nada",
+      "slug": "khelif-nada"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.130"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.765"
+        }
+      },
+      "fullName": "Khelifi  Seif",
+      "slug": "khelifi-seif"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "6.490"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "6.600"
+        }
+      },
+      "fullName": "Khiari  Nada",
+      "slug": "khiari-nada"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "3.810"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "1.875"
+        }
+      },
+      "fullName": "Khlia  Khadlja",
+      "slug": "khlia-khadlja"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.950"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.275"
+        }
+      },
+      "fullName": "Khribich  Wissem",
+      "slug": "khribich-wissem"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.710"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.475"
+        }
+      },
+      "fullName": "Kilani  Mariem",
+      "slug": "kilani-mariem"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "14.890"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "17.475"
+        }
+      },
+      "fullName": "Klai  Mohamed",
+      "slug": "klai-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "5.210"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "6.415"
+        }
+      },
+      "fullName": "Klouz  Sami",
+      "slug": "klouz-sami"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.260"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.700"
+        }
+      },
+      "fullName": "Knaissi  Raouaa",
+      "slug": "knaissi-raouaa"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.020"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.125"
+        }
+      },
+      "fullName": "Kortas  Ahmad",
+      "slug": "kortas-ahmad"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "14.530"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.140"
+        }
+      },
+      "fullName": "Koubaa  Fedi",
+      "slug": "koubaa-fedi"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.740"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.865"
+        }
+      },
+      "fullName": "Kouki  Arij",
+      "slug": "kouki-arij"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "7.750"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.125"
+        }
+      },
+      "fullName": "Kouki  Iheb",
+      "slug": "kouki-iheb"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.630"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.900"
+        }
+      },
+      "fullName": "Krifa  Chaima",
+      "slug": "krifa-chaima"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.340"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "16.025"
+        }
+      },
+      "fullName": "Ksontini  Mariem",
+      "slug": "ksontini-mariem"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.070"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.165"
+        }
+      },
+      "fullName": "Lahmar  Akram",
+      "slug": "lahmar-akram"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "6.810"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "7.640"
+        }
+      },
+      "fullName": "Lasram  Sarra",
+      "slug": "lasram-sarra"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.700"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.245"
+        }
+      },
+      "fullName": "Lassoued  Mohamed",
+      "slug": "lassoued-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "4.880"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "3.825"
+        }
+      },
+      "fullName": "Louati  Nader",
+      "slug": "louati-nader"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "7.500"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "7.890"
+        }
+      },
+      "fullName": "Louhichi  Nour",
+      "slug": "louhichi-nour"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.660"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "7.050"
+        }
+      },
+      "fullName": "Maalej  Farah",
+      "slug": "maalej-farah"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.820"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.745"
+        }
+      },
+      "fullName": "Mabrouki  Dorra",
+      "slug": "mabrouki-dorra"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Madan!  Kais",
+      "slug": "madan-kais"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.900"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "1.875"
+        }
+      },
+      "fullName": "Madani  Dorsaf",
+      "slug": "madani-dorsaf"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.200"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.790"
+        }
+      },
+      "fullName": "Mahfoudhi  Mohamed",
+      "slug": "mahfoudhi-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.310"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.190"
+        }
+      },
+      "fullName": "Mahjoub  Hadil",
+      "slug": "mahjoub-hadil"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Mahmoud!  Sana",
+      "slug": "mahmoud-sana"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.980"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "4.525"
+        }
+      },
+      "fullName": "Majjedi  Mahdi",
+      "slug": "majjedi-mahdi"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.550"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.575"
+        }
+      },
+      "fullName": "Makni  Mariem",
+      "slug": "makni-mariem"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.310"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.725"
+        }
+      },
+      "fullName": "Mallat  Eya",
+      "slug": "mallat-eya"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.170"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.315"
+        }
+      },
+      "fullName": "Malleh  Wissem",
+      "slug": "malleh-wissem"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.400"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.615"
+        }
+      },
+      "fullName": "Manai  Tesnime",
+      "slug": "manai-tesnime"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.320"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.650"
+        }
+      },
+      "fullName": "Mankai  Nada",
+      "slug": "mankai-nada"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.960"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.400"
+        }
+      },
+      "fullName": "Mansour  Wajdi",
+      "slug": "mansour-wajdi"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.210"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "7.975"
+        }
+      },
+      "fullName": "Mejri  Aya",
+      "slug": "mejri-aya"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.650"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.315"
+        }
+      },
+      "fullName": "Mekki  Mehdi",
+      "slug": "mekki-mehdi"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.360"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.250"
+        }
+      },
+      "fullName": "Merhben  Mohamed",
+      "slug": "merhben-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.200"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.725"
+        }
+      },
+      "fullName": "Messaoud  Khaoula",
+      "slug": "messaoud-khaoula"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.590"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.650"
+        }
+      },
+      "fullName": "Mezhoud  Ahmed",
+      "slug": "mezhoud-ahmed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.500"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.970"
+        }
+      },
+      "fullName": "Mhemed  Salwa",
+      "slug": "mhemed-salwa"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.910"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.325"
+        }
+      },
+      "fullName": "Miadi  Sirine",
+      "slug": "miadi-sirine"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.210"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.425"
+        }
+      },
+      "fullName": "Miladi  Firas",
+      "slug": "miladi-firas"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.590"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.000"
+        }
+      },
+      "fullName": "Mjehid  Khouloud",
+      "slug": "mjehid-khouloud"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.340"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.540"
+        }
+      },
+      "fullName": "Mnasri  Mohamed",
+      "slug": "mnasri-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.460"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.880"
+        }
+      },
+      "fullName": "Mosbehi  Firas",
+      "slug": "mosbehi-firas"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.100"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.040"
+        }
+      },
+      "fullName": "Moualhi  Chayma",
+      "slug": "moualhi-chayma"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Mouelhi  Ayoub",
+      "slug": "mouelhi-ayoub"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.790"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.350"
+        }
+      },
+      "fullName": "Moukatib  Safaa",
+      "slug": "moukatib-safaa"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.270"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.625"
+        }
+      },
+      "fullName": "Mourali  Sandra",
+      "slug": "mourali-sandra"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.730"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.100"
+        }
+      },
+      "fullName": "Moussi  Mohamed",
+      "slug": "moussi-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.820"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.650"
+        }
+      },
+      "fullName": "Mssaddak  Rania",
+      "slug": "mssaddak-rania"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.450"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.375"
+        }
+      },
+      "fullName": "Mtibaa  Rim",
+      "slug": "mtibaa-rim"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.280"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.990"
+        }
+      },
+      "fullName": "Mtiri  Wissem",
+      "slug": "mtiri-wissem"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.290"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.325"
+        }
+      },
+      "fullName": "Mzoughi  Sirine",
+      "slug": "mzoughi-sirine"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.460"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.765"
+        }
+      },
+      "fullName": "Naffati  Hiba",
+      "slug": "naffati-hiba"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.470"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.700"
+        }
+      },
+      "fullName": "Nahdi  Badis",
+      "slug": "nahdi-badis"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.260"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.925"
+        }
+      },
+      "fullName": "Ncir  Salma",
+      "slug": "ncir-salma"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "14.940"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "16.700"
+        }
+      },
+      "fullName": "Nefzi  Mahmoud",
+      "slug": "nefzi-mahmoud"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.410"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.640"
+        }
+      },
+      "fullName": "Nefzi  Mohamed",
+      "slug": "nefzi-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.570"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "4.925"
+        }
+      },
+      "fullName": "Noun!  Mehdi",
+      "slug": "noun-mehdi"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "7.680"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.315"
+        }
+      },
+      "fullName": "Omri  Imen",
+      "slug": "omri-imen"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.790"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.600"
+        }
+      },
+      "fullName": "Omri  We.Jden",
+      "slug": "omri-we-jden"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "14.990"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "16.765"
+        }
+      },
+      "fullName": "Ouahchi  Ons",
+      "slug": "ouahchi-ons"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "6.360"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "4.475"
+        }
+      },
+      "fullName": "Ouelhazi  Fedi",
+      "slug": "ouelhazi-fedi"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.690"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.250"
+        }
+      },
+      "fullName": "Ouerfelli  Oumayma",
+      "slug": "ouerfelli-oumayma"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.380"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.865"
+        }
+      },
+      "fullName": "Oueriemmi  Arwa",
+      "slug": "oueriemmi-arwa"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.740"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.040"
+        }
+      },
+      "fullName": "Oueslati  Ahmed",
+      "slug": "oueslati-ahmed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.640"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.250"
+        }
+      },
+      "fullName": "Oueslati  Chaima",
+      "slug": "oueslati-chaima"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.360"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.500"
+        }
+      },
+      "fullName": "Oueslati  Safa",
+      "slug": "oueslati-safa"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.330"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.175"
+        }
+      },
+      "fullName": "Ouhibi  Ons",
+      "slug": "ouhibi-ons"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.740"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.475"
+        }
+      },
+      "fullName": "Ouzeri  Nour",
+      "slug": "ouzeri-nour"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.070"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.365"
+        }
+      },
+      "fullName": "PyJf  Ahmed",
+      "slug": "py-jf-ahmed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.210"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.315"
+        }
+      },
+      "fullName": "R.Jiba  Ahmed",
+      "slug": "r-jiba-ahmed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.910"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.105"
+        }
+      },
+      "fullName": "Raach  Chaima",
+      "slug": "raach-chaima"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.230"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.265"
+        }
+      },
+      "fullName": "Raddaoui  Mariem",
+      "slug": "raddaoui-mariem"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.680"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.025"
+        }
+      },
+      "fullName": "Ragguem  Sarra",
+      "slug": "ragguem-sarra"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.060"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "16.090"
+        }
+      },
+      "fullName": "Raouine  Eya",
+      "slug": "raouine-eya"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.210"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.850"
+        }
+      },
+      "fullName": "Razki  Wassim",
+      "slug": "razki-wassim"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.450"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.475"
+        }
+      },
+      "fullName": "Ridene  Eya",
+      "slug": "ridene-eya"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.660"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.375"
+        }
+      },
+      "fullName": "Rjiba  Ilef",
+      "slug": "rjiba-ilef"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.730"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.065"
+        }
+      },
+      "fullName": "Romdhane  Amine",
+      "slug": "romdhane-amine"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.120"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "5.550"
+        }
+      },
+      "fullName": "Romdhane  Oumayma",
+      "slug": "romdhane-oumayma"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.090"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.325"
+        }
+      },
+      "fullName": "Saada  Firas",
+      "slug": "saada-firas"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.170"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.275"
+        }
+      },
+      "fullName": "Saadallah  Dorra",
+      "slug": "saadallah-dorra"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.700"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.465"
+        }
+      },
+      "fullName": "Saadani  Abdelkhale",
+      "slug": "saadani-abdelkhale"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.910"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.755"
+        }
+      },
+      "fullName": "Saadouni  Khaled",
+      "slug": "saadouni-khaled"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.780"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.965"
+        }
+      },
+      "fullName": "Said  Ismail",
+      "slug": "said-ismail"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "15.950"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.680"
+        }
+      },
+      "fullName": "Saidane  Mohamed",
+      "slug": "saidane-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.520"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.775"
+        }
+      },
+      "fullName": "Saidi  Mohamed",
+      "slug": "saidi-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.570"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.190"
+        }
+      },
+      "fullName": "Saihi  Hachem",
+      "slug": "saihi-hachem"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.080"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.975"
+        }
+      },
+      "fullName": "Samet  Mohamed",
+      "slug": "samet-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "7.860"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.840"
+        }
+      },
+      "fullName": "Sboui  Dina",
+      "slug": "sboui-dina"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.340"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.840"
+        }
+      },
+      "fullName": "Sboui  Walid",
+      "slug": "sboui-walid"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.570"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.115"
+        }
+      },
+      "fullName": "Sebri  Omar",
+      "slug": "sebri-omar"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.860"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.415"
+        }
+      },
+      "fullName": "Seddik  Farah",
+      "slug": "seddik-farah"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.990"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "16.350"
+        }
+      },
+      "fullName": "Sellami  Habib",
+      "slug": "sellami-habib"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "5.800"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "3.115"
+        }
+      },
+      "fullName": "Selmi  Ayoub",
+      "slug": "selmi-ayoub"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.680"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.945"
+        }
+      },
+      "fullName": "Selmi  Mohamed",
+      "slug": "selmi-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.660"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.300"
+        }
+      },
+      "fullName": "Selmi  Yassmine",
+      "slug": "selmi-yassmine"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.990"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.675"
+        }
+      },
+      "fullName": "Sfaxi  Hamza",
+      "slug": "sfaxi-hamza"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "6.970"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "5.175"
+        }
+      },
+      "fullName": "Sghaier  Mariem",
+      "slug": "sghaier-mariem"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.420"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.215"
+        }
+      },
+      "fullName": "Skhiri  Ons",
+      "slug": "skhiri-ons"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.370"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.015"
+        }
+      },
+      "fullName": "Sobhi  Fares",
+      "slug": "sobhi-fares"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.020"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.090"
+        }
+      },
+      "fullName": "Soltani  Amira",
+      "slug": "soltani-amira"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "14.560"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "16.245"
+        }
+      },
+      "fullName": "Soussi  Zakaria",
+      "slug": "soussi-zakaria"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.170"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.600"
+        }
+      },
+      "fullName": "Taghlet  Narjes",
+      "slug": "taghlet-narjes"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.160"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.900"
+        }
+      },
+      "fullName": "Taktak  Khaldoun",
+      "slug": "taktak-khaldoun"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Tebourski  Mohamed",
+      "slug": "tebourski-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.250"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.790"
+        }
+      },
+      "fullName": "Tekaya  Zeineb",
+      "slug": "tekaya-zeineb"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "8.040"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.825"
+        }
+      },
+      "fullName": "Teye  Eya",
+      "slug": "teye-eya"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.950"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "14.315"
+        }
+      },
+      "fullName": "Tlili  Nour",
+      "slug": "tlili-nour"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.030"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.850"
+        }
+      },
+      "fullName": "Touati  Erij",
+      "slug": "touati-erij"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "7.240"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.725"
+        }
+      },
+      "fullName": "Touihri  Tesnim",
+      "slug": "touihri-tesnim"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.520"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.215"
+        }
+      },
+      "fullName": "Triki  Achraf",
+      "slug": "triki-achraf"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.930"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "16.300"
+        }
+      },
+      "fullName": "Turki  Mohamed",
+      "slug": "turki-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.810"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.950"
+        }
+      },
+      "fullName": "Wachani  Mohamed",
+      "slug": "wachani-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.620"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.325"
+        }
+      },
+      "fullName": "Weslati  Eya",
+      "slug": "weslati-eya"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "13.220"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "4.890"
+        }
+      },
+      "fullName": "Yahia  Omar",
+      "slug": "yahia-omar"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.360"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.700"
+        }
+      },
+      "fullName": "Yahyaoui  Louay",
+      "slug": "yahyaoui-louay"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "0.000"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "0.000"
+        }
+      },
+      "fullName": "Yakoubi  Hadir",
+      "slug": "yakoubi-hadir"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "14.880"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.950"
+        }
+      },
+      "fullName": "Yangui  Heni",
+      "slug": "yangui-heni"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.070"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.640"
+        }
+      },
+      "fullName": "Yousffi  Jaouaher",
+      "slug": "yousffi-jaouaher"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "14.250"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "15.150"
+        }
+      },
+      "fullName": "Yousfi  Wissem",
+      "slug": "yousfi-wissem"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.490"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.575"
+        }
+      },
+      "fullName": "Zairi  Maissene",
+      "slug": "zairi-maissene"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "7.690"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "8.300"
+        }
+      },
+      "fullName": "Zaouali  Rahma",
+      "slug": "zaouali-rahma"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "9.250"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "10.420"
+        }
+      },
+      "fullName": "Zhani  Molka",
+      "slug": "zhani-molka"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.630"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.615"
+        }
+      },
+      "fullName": "Ziada  Oussama",
+      "slug": "ziada-oussama"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "6.930"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "7.540"
+        }
+      },
+      "fullName": "Ziadi  Amani",
+      "slug": "ziadi-amani"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.250"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "11.525"
+        }
+      },
+      "fullName": "Zoghlami  Mohamed",
+      "slug": "zoghlami-mohamed"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "10.100"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "12.050"
+        }
+      },
+      "fullName": "Zouch  Oussama",
+      "slug": "zouch-oussama"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "11.500"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "13.070"
+        }
+      },
+      "fullName": "Zribi  Aziz",
+      "slug": "zribi-aziz"
+    },
+    {
+      "data": {
+        "Electronique +Système": {
+          "Electronique +Système": "12.240"
+        },
+        "Physique 2 ( Magnétisme + Thermo )": {
+          "Physique 2 ( Magnétisme + Thermo )": "9.375"
+        }
+      },
+      "fullName": "Zribi  Cyrine",
+      "slug": "zribi-cyrine"
+    }
+  ]
+}

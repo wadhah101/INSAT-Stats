@@ -3,8 +3,10 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import * as fsp from "fs/promises";
 import xlsx from "xlsx";
 import v from "voca";
-import { getGroupedFields, makeCompareData } from "src/utils/chartData.utils";
+import { getGroupedFields, makeStudentData } from "src/utils/chartData.utils";
 import { MPISheet } from "src/@types/MPIDataObject";
+import R from "ramda";
+import { GenericFiliereResult } from "src/@types/GenericDataObject";
 
 const canRun = env.NODE_ENV === "development";
 
@@ -17,50 +19,43 @@ export default async (
     // reading file
     const buffer = await fsp.readFile("data/xls/mpi.xlsx");
     const sheet = xlsx.read(buffer);
-    const rawData = xlsx.utils.sheet_to_json<MPISheet>(
+    const data = xlsx.utils.sheet_to_json<MPISheet>(
         sheet.Sheets["Updated Sheet"],
     );
-    const data = rawData.map((e) => ({
-        ...e,
-        Nom: v.titleCase(e.Nom),
-        Prenom: v.titleCase(e.Prenom),
-    }));
 
-    const renamedFields = Object.fromEntries([]);
+    const renamedFields = {};
 
-    const ignoredField = [
-        "Electronique +Système",
-        "Physique 2 ( Magnétisme + Thermo )",
-    ];
+    const ignoreFunction = (e: string) =>
+        !!["Electronique +Système", "Physique 2 ( Magnétisme + Thermo )"].find(
+            (e1) => e1 === e,
+        );
 
     const fieldOrder = [];
 
-    const compareData = makeCompareData(
-        data,
-        ignoredField,
-        fieldOrder,
-        (e) => `${e.Nom}  ${e.Prenom}`,
-        (e) => v.kebabCase(`${e.Nom}  ${e.Prenom}`),
-    ).sort((a, b) => a.fullName.localeCompare(b.fullName));
     const groupedFields = getGroupedFields(
         data[0],
-        ignoredField,
+        ignoreFunction,
         fieldOrder,
         () => false,
     );
 
-    const mpiOutput = {
-        name: "MPI",
-        fieldOrder,
-        ignoredField,
-        renamedFields,
-        year: "2021",
+    const compareData = makeStudentData(
+        data,
         groupedFields,
-        compareData,
+        renamedFields,
+        (e) => v.titleCase(`${e.Nom}  ${e.Prenom}`),
+        (e) => v.kebabCase(`${e.Nom}  ${e.Prenom}`),
+        R.identity,
+        R.identity,
+    ).sort((a, b) => a.fullName.localeCompare(b.fullName));
+
+    const mpiOutput: GenericFiliereResult = {
+        filiere: { name: "mpi", year: 2021 },
+        studentsResults: compareData,
     };
 
     await fsp.writeFile(
-        "data/json/MPI-2021.json",
+        "data/json/mpi-2021.json",
         JSON.stringify(mpiOutput, null, 2),
     );
 

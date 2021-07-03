@@ -1,6 +1,8 @@
-import { GetStaticProps, NextPage } from "next";
-import * as fsp from "fs/promises";
-import { getStaticPathsFiliere } from "src/utils/filiere.utils";
+import { NextPage } from "next";
+import {
+    getStaticPathsFiliere,
+    getStaticPropsFiliere,
+} from "src/utils/filiere.utils";
 
 const GL3Page2021: NextPage = () => {
     return null;
@@ -20,22 +22,7 @@ const GL3Page2021: NextPage = () => {
     // );
 };
 
-export const getStaticProps: GetStaticProps = async () => {
-    const buffer = await fsp.readFile("data/json/GL3-2021.json", {
-        encoding: "utf-8",
-    });
-
-    const { compareData, groupedFields, renamedFields } = JSON.parse(buffer);
-
-    return {
-        props: {
-            renamedFields,
-            compareData,
-            groupedFields,
-            data: null,
-        },
-    };
-};
+export const getStaticProps = getStaticPropsFiliere;
 
 export const getStaticPaths = getStaticPathsFiliere;
 

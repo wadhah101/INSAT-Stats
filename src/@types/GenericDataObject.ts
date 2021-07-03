@@ -4,16 +4,16 @@ export interface Filiere {
 }
 
 interface Meh {
-    [K: string]: Record<string, number> | string;
+    [K: string]: Record<string, number>;
 }
 
-export interface GenericStudentResult<T extends Meh | any> {
-    data: Partial<T>;
+export interface GenericStudentResult {
+    data: Partial<Meh>;
     fullName: string;
     slug: string;
 }
 
-export interface GenericFiliereResult<T extends Meh | any> {
+export interface GenericFiliereResult {
     filiere: Filiere;
-    studentsResults: GenericStudentResult<T>[];
+    studentsResults: GenericStudentResult[];
 }

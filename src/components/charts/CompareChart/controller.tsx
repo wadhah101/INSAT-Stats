@@ -4,19 +4,16 @@ import Select from "@material-ui/core/Select";
 import MenuItem from "@material-ui/core/MenuItem";
 import { GenericStudentResult } from "src/@types/GenericDataObject";
 
-interface ICompareChartProps<T> {
-    data: GenericStudentResult<T>[];
+interface ICompareChartProps {
+    data: GenericStudentResult[];
     groupedFields: string[][];
     renamedFields: Record<string, string>;
     fieldMapper: (e: string, index: number, arr: string[]) => string;
 }
 
-const CompareChart = <T extends unknown>({
+const CompareChart = ({
     data,
-    renamedFields,
-    groupedFields,
-    fieldMapper,
-}: React.PropsWithChildren<ICompareChartProps<T>>): JSX.Element => {
+}: React.PropsWithChildren<ICompareChartProps>): JSX.Element => {
     const [indexA, setIndexA] = React.useState(
         Math.floor(Math.random() * data.length),
     );
@@ -72,12 +69,7 @@ const CompareChart = <T extends unknown>({
                     </div>
                 </div>
             </div>
-            <StatelessCompareChart
-                fieldMapper={fieldMapper}
-                renamedFields={renamedFields}
-                groupedFields={groupedFields}
-                data={[data[indexA], data[indexB]]}
-            />
+            <StatelessCompareChart data={[data[indexA], data[indexB]]} />
         </div>
     );
 };
