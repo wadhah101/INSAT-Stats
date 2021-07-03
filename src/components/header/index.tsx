@@ -5,32 +5,29 @@ import Tabs from "@components/tabs/stateless";
 import { useRouter } from "next/dist/client/router";
 
 const tabs = ["Individual", "Compare", "Ranking"];
-
-const tabMapper = {
-    Individual: "indiv",
-    Compare: "compare",
-    Ranking: "ranking",
-};
+const tabsUrl = ["indiv", "compare", "ranking"];
 
 export const Header: React.FC = () => {
-    const [selectedTab, setSelectedTab] = useState(0);
     const router = useRouter();
+    const isInFiliere = router.pathname.includes("[filiere]");
+    const curr = isInFiliere && router.pathname.split("/")[3];
+    const currIndex = tabsUrl.findIndex((e) => e === curr);
 
     const onSelect = (e: number): void => {
-        setSelectedTab(e);
-        const splitttedPathname = router.pathname.split("/");
-        // this check is stupid
-        if (splitttedPathname.length >= 3) {
-            const base = splitttedPathname.slice(0, 3);
-            const newUrl = [...base, tabMapper[tabs[e]]];
-            router.push(newUrl.join("/"));
-        }
+        const newSelection = router.asPath.replace(
+            router.pathname.split("/")[3],
+            tabsUrl[e],
+        );
+
+        router.push(newSelection);
     };
 
     return (
         <header className="my-1">
             <Contact />
-            <Tabs onSelect={onSelect} current={selectedTab} data={tabs} />
+            {isInFiliere && (
+                <Tabs onSelect={onSelect} current={currIndex} data={tabs} />
+            )}
         </header>
     );
 };
