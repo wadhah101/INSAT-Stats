@@ -9,7 +9,7 @@ const Contact: React.FunctionComponent = () => {
                     target="_blank"
                     className="text-blue-400 hover:underline"
                     rel="noopener"
-                    href="https://github.com/wadhah101/GL3-Statistics"
+                    href="https://github.com/wadhah101/INSAT-Stats"
                 >
                     Github
                 </a>

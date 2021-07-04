@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import Contact from "@components/contact";
 import Tabs from "@components/tabs/stateless";
@@ -18,7 +18,6 @@ export const Header: React.FC = () => {
             router.pathname.split("/")[3],
             tabsUrl[e],
         );
-
         router.push(newSelection);
     };
 

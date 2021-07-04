@@ -1,40 +1,59 @@
 import React from "react";
 
 import { Container } from "@components";
-import { NextPage } from "next";
+import { GetStaticProps, NextPage } from "next";
+import { Filiere } from "src/@types/GenericDataObject";
 import Link from "next/link";
-import axios from "axios";
+import fsp from "fs/promises";
+interface HomePageProps {
+    filieres: Filiere[];
+}
 
-// COOOODE NOW REFACTOR LATER
-// TODO FIX THIS BAD CODE PROTOTYPE
-
-const Home: NextPage = () => {
-    const instance = axios.create({
-        baseURL: process.env.BASE_URL,
-    });
-
-    const regenerateJSON = () => {
-        instance.get("/api/export/filiere");
-        instance.get("/api/export/gl3");
-        instance.get("/api/export/mpi");
-    };
-
+const Home: NextPage<HomePageProps> = ({ filieres }) => {
     return (
         <Container>
-            <div className="px-2 mx-auto my-8 md:px-0 md:my-20 md:w-8/12 "></div>
-
-            <Link passHref href="/filiere/gl3-2021/indiv">
-                <a> GL3-2021 </a>
-            </Link>
-
-            <Link passHref href="/filiere/mpi-2021/indiv">
-                <a> MPI-2021 </a>
-            </Link>
-            <button onClick={regenerateJSON} className="p-4 bg-blue-100">
-                regenerate
-            </button>
+            <div className="flex flex-col self-center flex-grow px-2 md:px-0 md:w-8/12 ">
+                <h1 className="self-center inline-block mt-32 text-3xl font-extrabold text-transparent md:text-9xl bg-clip-text bg-gradient-to-r from-pink-500 to-blue-500">
+                    Check.
+                    <br /> Compare.
+                    <br /> Rank.
+                </h1>
+                <div className="flex flex-wrap items-center justify-center mt-16">
+                    {filieres.map((e, ind) => (
+                        <Link
+                            href={`/filiere/${e.name}-${e.year}/indiv`}
+                            key={ind}
+                            passHref
+                        >
+                            <a
+                                className="py-2.5 mx-2 text-lg px-8 font-bold text-white rounded shadow bg-gradient-to-br from-pink-500 to-blue-500"
+                                key={ind}
+                            >
+                                {`${e.name}-${e.year}`.toUpperCase()}
+                            </a>
+                        </Link>
+                    ))}
+                </div>
+                <p className="mt-4 text-lg text-center text-black text-opacity-50">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus veniam iure blanditiis consectetur. Nisi ipsum
+                    non, soluta officia autem, repell
+                </p>
+            </div>
         </Container>
     );
+};
+
+export const getStaticProps: GetStaticProps<HomePageProps> = async () => {
+    const filieres: Filiere[] = JSON.parse(
+        await fsp.readFile("data/json/filiere.json", "utf-8"),
+    );
+
+    return {
+        props: {
+            filieres,
+        },
+    };
 };
 
 export default Home;
