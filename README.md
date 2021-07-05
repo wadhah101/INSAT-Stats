@@ -1,6 +1,6 @@
 # INSAT-stats
 
-small project making use of university released Excel sheets to better visualize student data.
+Small project making use of university released Excel sheets to better visualize student data.
 
 [Check Me](https://insat-stats.vercel.app/)
 
