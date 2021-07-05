@@ -1,4 +1,4 @@
-# gl3-stats
+# INSAT-stats
 
 This project was generated with [superplate](https://github.com/pankod/superplate).
 
