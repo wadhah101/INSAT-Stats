@@ -14,12 +14,7 @@ const GL3Page2021: NextPage<GenericFiliereResult> = ({
 }) => {
     return (
         <Container>
-            <div className="px-2 mx-auto mt-2 mt-8 md:px-0 md:w-8/12 ">
-                <div>
-                    <h1 className="text-4xl font-semibold text-center text-black text-opacity-50">
-                        {`${filiere.name}-${filiere.year}`.toUpperCase()}{" "}
-                    </h1>
-                </div>
+            <div className="px-2 mx-auto mt-2 md:px-0 md:w-8/12 ">
                 <div className="flex flex-col mt-8">
                     <IndivChart data={studentsResults} />
                 </div>

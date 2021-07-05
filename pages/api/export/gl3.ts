@@ -21,6 +21,7 @@ export default async (
     const data = xlsx.utils.sheet_to_json<Gl3Sheet>(sheet.Sheets["GL3"]);
 
     const renamedFields = Object.fromEntries([
+        ["RANG", "Rang"],
         ["MOY_ANN", "Moyenne Annuel"],
         ["B00", "R.O"],
         ["B01", "Modélisation des systeme"],

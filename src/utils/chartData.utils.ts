@@ -49,7 +49,11 @@ export const makeStudentData = <T>(
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         data: Object.fromEntries(
             groupedFields.map((e) => {
-                if (e.length === 1) return [e[0], { [e[0]]: x[e[0]] }];
+                if (e.length === 1)
+                    return [
+                        getRenamedField(e[0], renamedFields),
+                        { [getRenamedField(e[0], renamedFields)]: x[e[0]] },
+                    ];
 
                 const a = Object.fromEntries(
                     e.map((y) => [ungroupingFunction(y), x[y]]),

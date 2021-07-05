@@ -8,14 +8,11 @@ import {
     getStaticPropsFiliere,
 } from "src/utils/filiere.utils";
 
-const GL3Page2021: NextPage<GenericFiliereResult> = ({
-    filiere,
-    studentsResults,
-}) => {
+const GL3Page2021: NextPage<GenericFiliereResult> = ({ studentsResults }) => {
     return (
         <Container>
-            <div className="px-2 mx-auto my-8 md:px-0 md:my-20 md:w-8/12 ">
-                <div className="flex flex-col mt-8">
+            <div className="self-center md:w-8/12 ">
+                <div className="mt-8 ">
                     <CompareChart data={studentsResults} />
                 </div>
             </div>

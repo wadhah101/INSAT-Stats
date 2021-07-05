@@ -23,10 +23,12 @@ export default async (
         sheet.Sheets["Updated Sheet"],
     );
 
-    const renamedFields = {};
+    const renamedFields = {
+        "M.G(avant contrôle)": "Moyenne Annuel",
+    };
 
     const ignoreFunction = (e: string) =>
-        !!["Electronique +Système", "Physique 2 ( Magnétisme + Thermo )"].find(
+        !["Electronique +Système", "Physique 2 ( Magnétisme + Thermo )"].find(
             (e1) => e1 === e,
         );
 

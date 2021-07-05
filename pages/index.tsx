@@ -14,7 +14,7 @@ const Home: NextPage<HomePageProps> = ({ filieres }) => {
         <Container>
             <div className="flex flex-col self-center flex-grow px-2 md:px-0 md:w-8/12 ">
                 <h1 className="self-center inline-block mt-32 text-3xl font-extrabold text-transparent md:text-9xl bg-clip-text bg-gradient-to-r from-pink-500 to-blue-500">
-                    Check.
+                    inspect.
                     <br /> Compare.
                     <br /> Rank.
                 </h1>
@@ -34,11 +34,6 @@ const Home: NextPage<HomePageProps> = ({ filieres }) => {
                         </Link>
                     ))}
                 </div>
-                <p className="mt-4 text-lg text-center text-black text-opacity-50">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Accusamus veniam iure blanditiis consectetur. Nisi ipsum
-                    non, soluta officia autem, repell
-                </p>
             </div>
         </Container>
     );
