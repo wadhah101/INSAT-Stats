@@ -28,9 +28,9 @@ const StatelessCompareChart = ({ data }: ICompareChartProps): JSX.Element => {
     const fields = Object.keys(data[0].data);
 
     return (
-        <div className="grid gap-4 p-2 md:grid-cols-2">
+        <div className="grid gap-4 md:grid-cols-2">
             {fields.map((e, ind) => (
-                <div className="border " key={ind}>
+                <div className="p-2 border" key={ind}>
                     <h2 className="text-xl font-medium text-black md:text-2xl text-opacity-60">
                         {e}
                     </h2>
