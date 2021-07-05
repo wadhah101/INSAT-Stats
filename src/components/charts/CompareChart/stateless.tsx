@@ -7,7 +7,7 @@ interface ICompareChartProps {
     data: GenericStudentResult[];
 }
 
-const StatelessCompareChart = ({ data }: ICompareChartProps): JSX.Element => {
+const StatelessCompareChart: React.FC<ICompareChartProps> = ({ data }) => {
     const options = {
         plugins: {
             legend: {

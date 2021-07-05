@@ -56,7 +56,7 @@ interface IMoyChart {
     compAttribute: string;
 }
 
-const RankingChart = ({ compAttribute, data }: IMoyChart): JSX.Element => {
+const RankingChart: React.FC<IMoyChart> = ({ compAttribute, data }) => {
     return (
         <Bar
             type="bar"

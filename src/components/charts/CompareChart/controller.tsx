@@ -8,9 +8,7 @@ interface ICompareChartProps {
     data: GenericStudentResult[];
 }
 
-const CompareChart = ({
-    data,
-}: React.PropsWithChildren<ICompareChartProps>): JSX.Element => {
+const CompareChart: React.FC<ICompareChartProps> = ({ data }) => {
     const [indexA, setIndexA] = React.useState(
         Math.floor(Math.random() * data.length),
     );

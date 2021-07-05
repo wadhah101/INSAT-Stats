@@ -8,7 +8,7 @@ interface ICompareChartProps {
     data: GenericStudentResult[];
 }
 
-const IndivChart = ({ data }: ICompareChartProps): JSX.Element => {
+const IndivChart: React.FC<ICompareChartProps> = ({ data }) => {
     const [indexA, setIndexA] = React.useState(0);
 
     const handleChangeA = (event) => {
